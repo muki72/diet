@@ -16,6 +16,11 @@
     <?php
     include("nav.php");
     ?>
+    <div class="container">
+        <div class="background">
+            <h1>Parce que chaque parcours est unique, votre nutrition aussi</h1>
+        </div>
+    </div>
 </body>
 
 </html>
