@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 2px #D07A67;
+}
+nav .logo {
+  width: 150px;
+  height: 150px;
+  margin-left: 50px;
+}
+nav a {
+  color: #151515;
+  text-decoration: none;
+}
+nav .actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  font-family: "Pompiere", sans-serif;
+  font-size: 3em;
+  gap: 200px;
+  width: 90%;
+  height: 100px;
+}/*# sourceMappingURL=app.css.map */
