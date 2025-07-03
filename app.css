@@ -3,6 +3,29 @@
   margin: 0px;
 }
 
+button {
+  font-size: 1.3em;
+  font-family: "Glacial Indifference", sans-serif;
+  padding: 0.5em 2em;
+  border: solid 4px #D07A67;
+  border-radius: 50px;
+  background-color: #EBE1D6;
+  color: #D07A67;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background-color: #D07A67;
+  color: #EBE1D6;
+  box-shadow: 0 0 10px rgba(208, 122, 103, 0.6), 0 0 20px rgba(208, 122, 103, 0.4);
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.98);
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -32,7 +55,7 @@ nav .actions a:hover {
           text-decoration: underline 2px;
 }
 
-.container .background {
+header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +67,7 @@ nav .actions a:hover {
   border-top: solid 4px #D07A67;
   border-bottom: solid 4px #D07A67;
 }
-.container .background h1 {
+header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,4 +78,36 @@ nav .actions a:hover {
   background-color: rgba(208, 122, 103, 0.8);
   width: 100%;
   height: 150px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 3em;
+  font-family: "Glacial Indifference", sans-serif;
+}
+.container .profil {
+  display: flex;
+  margin: 1em 3em;
+}
+.container .profil img {
+  width: 600px;
+  height: 450px;
+  border-radius: 15px;
+}
+.container .profil .infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+  width: 100%;
+}
+.container .profil .infos h2 {
+  font-size: 4em;
+  font-family: "Pompiere", sans-serif;
+  font-weight: 100;
+}
+.container .profil .infos p {
+  font-size: 2em;
 }/*# sourceMappingURL=app.css.map */

@@ -9,6 +9,7 @@
     <link href="https://fonts.cdnfonts.com/css/pompiere" rel="stylesheet">
 
 
+
     <title>Document</title>
 </head>
 
@@ -16,10 +17,23 @@
     <?php
     include("nav.php");
     ?>
+    <header>
+        <h1>Parce que chaque parcours est unique, votre nutrition aussi</h1>
+    </header>
     <div class="container">
-        <div class="background">
-            <h1>Parce que chaque parcours est unique, votre nutrition aussi</h1>
+
+        <div class="profil">
+            <img src="assets\face.jpeg" alt="Lisa Mercier">
+            <div class="infos">
+                <h2>Lisa Mercier</h2>
+                <p>Diététicienne Nutritionniste diplômée</p>
+                <p>En cabinet à Savigné l’Evêque et à votre domicile</p>
+                <button>Reserver sur Doctolib</button>
+            </div>
         </div>
+
+
+
     </div>
 </body>
 
