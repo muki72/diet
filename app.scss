@@ -15,7 +15,24 @@ $color-orange: #D07A67;
 
 }
 
+h2 {
+    font-size: 4em;
+    font-family: $pompiere;
+    font-weight: 100;
+}
+
+p {
+    font-size: 2em;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 button {
+    min-width: 300px;
     font-size: 1.3em;
     font-family: $glacial;
     padding: 0.5em 2em;
@@ -42,6 +59,8 @@ button {
         transform: scale(0.98);
     }
 }
+
+
 
 //navbar
 nav {
@@ -113,11 +132,13 @@ header {
     display: flex;
     flex-direction: column;
     margin: 0px 3em;
+    gap: 3em;
     font-family: $glacial;
 
     .profil {
         display: flex;
         margin: 1em 3em;
+
 
         img {
             width: 600px;
@@ -133,17 +154,70 @@ header {
             gap: 3em;
             width: 100%;
 
-            h2 {
-                font-size: 4em;
-                font-family: $pompiere;
-                font-weight: 100;
-            }
 
-            p {
-                font-size: 2em;
-            }
+
+
         }
 
     }
 
+    .intro {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+        margin: 1em 3em;
+
+
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+        margin: 1em 3em;
+
+    }
+
+    .reservation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+        margin: 1em 3em;
+
+        .btn-actions {
+            display: flex;
+            gap: 3em;
+        }
+    }
+
+    .place {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+        margin: 1em 3em;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3em;
+        margin: 1em 3em;
+
+        i {
+            font-size: 2em;
+            color: $color-orange;
+        }
+
+        .infos {
+            gap: 3em;
+
+        }
+
+
+    }
 }

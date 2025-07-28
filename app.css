@@ -3,7 +3,24 @@
   margin: 0px;
 }
 
+h2 {
+  font-size: 4em;
+  font-family: "Pompiere", sans-serif;
+  font-weight: 100;
+}
+
+p {
+  font-size: 2em;
+}
+
+.inline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 button {
+  min-width: 300px;
   font-size: 1.3em;
   font-family: "Glacial Indifference", sans-serif;
   padding: 0.5em 2em;
@@ -84,6 +101,7 @@ header h1 {
   display: flex;
   flex-direction: column;
   margin: 0px 3em;
+  gap: 3em;
   font-family: "Glacial Indifference", sans-serif;
 }
 .container .profil {
@@ -103,11 +121,49 @@ header h1 {
   gap: 3em;
   width: 100%;
 }
-.container .profil .infos h2 {
-  font-size: 4em;
-  font-family: "Pompiere", sans-serif;
-  font-weight: 100;
+.container .intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  margin: 1em 3em;
 }
-.container .profil .infos p {
+.container .review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  margin: 1em 3em;
+}
+.container .reservation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  margin: 1em 3em;
+}
+.container .reservation .btn-actions {
+  display: flex;
+  gap: 3em;
+}
+.container .place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  margin: 1em 3em;
+}
+.container .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+  margin: 1em 3em;
+}
+.container .contact i {
   font-size: 2em;
+  color: #D07A67;
+}
+.container .contact .infos {
+  gap: 3em;
 }/*# sourceMappingURL=app.css.map */
