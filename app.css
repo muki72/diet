@@ -9,6 +9,12 @@ h2 {
   font-weight: 100;
 }
 
+h3 {
+  font-size: 3em;
+  font-family: "Glacial Indifference", sans-serif;
+  font-weight: 100;
+}
+
 p {
   font-size: 2em;
 }
@@ -152,6 +158,20 @@ header h1 {
   align-items: center;
   gap: 3em;
   margin: 1em 3em;
+}
+.container .place .address {
+  text-align: center;
+}
+.container .place .address h3 {
+  font-size: 2em;
+}
+.container .place .address p {
+  font-size: 1em;
+}
+.container .place img {
+  width: 600px;
+  height: 450px;
+  border-radius: 15px;
 }
 .container .contact {
   display: flex;

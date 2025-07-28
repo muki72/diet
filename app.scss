@@ -21,6 +21,12 @@ h2 {
     font-weight: 100;
 }
 
+h3 {
+    font-size: 3em;
+    font-family: $glacial;
+    font-weight: 100;
+}
+
 p {
     font-size: 2em;
 }
@@ -199,6 +205,25 @@ header {
         align-items: center;
         gap: 3em;
         margin: 1em 3em;
+
+
+        .address {
+            text-align: center;
+
+            h3 {
+                font-size: 2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+
+        img {
+            width: 600px;
+            height: 450px;
+            border-radius: 15px;
+        }
     }
 
     .contact {
