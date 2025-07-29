@@ -29,12 +29,19 @@ a {
   align-items: center;
 }
 
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 button {
   min-width: 300px;
+  max-width: 400px;
   font-size: 1.3em;
   font-family: "Glacial Indifference", sans-serif;
   padding: 0.5em 2em;
-  border: solid 4px #D07A67;
+  border: solid 2px #D07A67;
   border-radius: 50px;
   background-color: #EBE1D6;
   color: #D07A67;
@@ -56,7 +63,8 @@ button:active {
 nav {
   display: flex;
   justify-content: space-between;
-  border-bottom: solid 4px #D07A67;
+  border-bottom: solid 2px #D07A67;
+  background-color: #EBE1D6;
 }
 nav .logo {
   width: 150px;
@@ -87,10 +95,11 @@ footer {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border-top: solid 4px #D07A67;
+  border-top: solid 2px #D07A67;
   gap: 2em;
   font-size: 1em;
   padding: 2em;
+  background-color: #EBE1D6;
 }
 
 header {
@@ -102,7 +111,7 @@ header {
   background-image: url("assets/background.jpg");
   background-position: center;
   background-size: cover;
-  border-bottom: solid 4px #D07A67;
+  border-bottom: solid 2px #D07A67;
 }
 header h1 {
   display: flex;
@@ -208,4 +217,55 @@ header h1 {
 .consult h2 {
   text-align: center;
   padding: 1em;
+}
+.consult .column {
+  gap: 0.5em;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: justify;
+  height: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tarifs {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2em;
+}
+.tarifs h2 {
+  text-align: center;
+  padding: 0.5em;
+}
+.tarifs .table-container .table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.tarifs .table-container .table .banner {
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.tarifs .table-container .table .banner h3 {
+  margin-top: 0;
+  color: #151515;
+}
+.tarifs .table-container .table .banner p {
+  margin: 1em 0;
+  color: #555;
+  font-size: 1.5em;
+}
+.tarifs .column {
+  gap: 1em;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }/*# sourceMappingURL=app.css.map */
