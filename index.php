@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets\logo.png" type="image/x-icon">
     <link rel="stylesheet" href="app.css">
     <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/pompiere" rel="stylesheet">
@@ -11,7 +12,7 @@
 
 
 
-    <title>Document</title>
+    <title>Lisa Mercier - Acceuil</title>
 </head>
 
 <body>
@@ -82,10 +83,15 @@
                     <i class="fa-solid fa-envelope"></i>
                     <p>contact@lisamercierdieteticienne.fr</p>
                 </div>
+                <button>Reserver sur Doctolib</button>
             </div>
         </div>
 
     </div>
+    <?php
+    include("footer.php");
+    ?>
+
 </body>
 
 </html>

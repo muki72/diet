@@ -19,6 +19,10 @@ p {
   font-size: 2em;
 }
 
+a {
+  color: #151515;
+}
+
 .inline {
   display: flex;
   flex-direction: row;
@@ -52,6 +56,7 @@ button:active {
 nav {
   display: flex;
   justify-content: space-between;
+  border-bottom: solid 4px #D07A67;
 }
 nav .logo {
   width: 150px;
@@ -78,6 +83,16 @@ nav .actions a:hover {
           text-decoration: underline 2px;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top: solid 4px #D07A67;
+  gap: 2em;
+  font-size: 1em;
+  padding: 2em;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -87,7 +102,6 @@ header {
   background-image: url("assets/background.jpg");
   background-position: center;
   background-size: cover;
-  border-top: solid 4px #D07A67;
   border-bottom: solid 4px #D07A67;
 }
 header h1 {
@@ -186,4 +200,12 @@ header h1 {
 }
 .container .contact .infos {
   gap: 3em;
+}
+
+.consult {
+  padding-bottom: 2em;
+}
+.consult h2 {
+  text-align: center;
+  padding: 1em;
 }/*# sourceMappingURL=app.css.map */
