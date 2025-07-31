@@ -7,7 +7,7 @@ $pompiere: 'Pompiere', sans-serif;
 $color-black: #151515;
 $color-white: #FFFFFF;
 $color-Beige: #EBE1D6;
-$color-orange: #D07A67;
+$color-orange: #d06767;
 
 * {
     box-sizing: border-box;
@@ -273,6 +273,8 @@ header {
 
 
     }
+
+
 }
 
 //consultations
@@ -292,6 +294,10 @@ header {
         text-align: justify;
         height: 100%;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .column:hover {
+        scale: 1.01;
     }
 }
 
@@ -334,6 +340,10 @@ header {
                     font-size: 1.5em;
                 }
             }
+
+            .banner:hover {
+                scale: 1.01;
+            }
         }
     }
 
@@ -347,4 +357,81 @@ header {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
+}
+
+.inb {
+    padding-bottom: 2em;
+    align-items: center;
+
+    h2 {
+        text-align: center;
+        padding: 1em;
+
+    }
+
+    p {
+        text-align: justify;
+    }
+
+    .table-container {
+        .table {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+            .banner {
+                border: 1px solid #ccc;
+                background-color: #f9f9f9;
+                padding: 20px;
+                text-align: center;
+                height: 100%;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+                h3 {
+                    margin-top: 0;
+                    color: $color-black;
+
+                }
+
+                p {
+                    margin: 1em 0;
+                    color: #555;
+                    font-size: 1.5em;
+                }
+            }
+
+            .banner:hover {
+                scale: 1.01;
+            }
+        }
+    }
+
+    img {
+        width: 50%;
+        border: 1px solid #ccc;
+        background-color: #f9f9f9;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+
+    }
+
+    img:hover {
+        scale: 1.1;
+    }
+}
+
+.rgpd {
+    padding-bottom: 2em;
+    align-items: center;
+
+    h2 {
+        text-align: center;
+        padding: 1em;
+
+    }
+
+    p {
+        text-align: justify;
+    }
 }
