@@ -9,6 +9,8 @@ $color-white: #FFFFFF;
 $color-Beige: #EBE1D6;
 $color-orange: #d06767;
 
+$shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -85,13 +87,17 @@ button {
 //navbar
 nav {
     display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 2;
     justify-content: space-between;
     border-bottom: solid 2px $color-orange;
     background-color: $color-Beige;
 
+
     .logo {
-        width: 150px;
-        height: 150px;
+        width: 80px;
+        height: 80px;
         margin-left: 50px;
     }
 
@@ -109,10 +115,10 @@ nav {
         align-items: center;
         margin-top: 25px;
         font-family: $pompiere;
-        font-size: 3em;
+        font-size: 1.5em;
         gap: 200px;
         width: 90%;
-        height: 100px;
+        height: fit-content;
 
         a:hover {
             text-decoration: underline 2px;
@@ -128,10 +134,17 @@ footer {
     align-items: center;
     flex-direction: column;
     border-top: solid 2px $color-orange;
-    gap: 2em;
-    font-size: 1em;
+    gap: 1em;
     padding: 2em;
     background-color: $color-Beige;
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
 }
 
 
@@ -165,6 +178,7 @@ header {
 .container {
     display: flex;
     flex-direction: column;
+    text-align: center;
     margin: 0px 3em;
     gap: 3em;
     font-family: $glacial;
@@ -172,6 +186,10 @@ header {
     .profil {
         display: flex;
         margin: 1em 3em;
+        background-color: #f9f9f9;
+        border-bottom: solid 2px $color-orange;
+        border-radius: 15px;
+        box-shadow: $shadow;
 
 
         img {
@@ -201,6 +219,11 @@ header {
         align-items: center;
         gap: 3em;
         margin: 1em 3em;
+        padding: 1em;
+        background-color: #f9f9f9;
+        border-bottom: solid 2px $color-orange;
+        border-radius: 15px;
+        box-shadow: $shadow;
 
 
     }
@@ -233,6 +256,15 @@ header {
         align-items: center;
         gap: 3em;
         margin: 1em 3em;
+        background-color: #f9f9f9;
+        border-bottom: solid 2px $color-orange;
+        border-radius: 15px;
+        box-shadow: $shadow;
+
+
+        iframe {
+            border-radius: 15px;
+        }
 
 
         .address {
@@ -293,7 +325,7 @@ header {
         padding: 20px;
         text-align: justify;
         height: 100%;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: $shadow;
     }
 
     .column:hover {
@@ -326,7 +358,7 @@ header {
                 padding: 20px;
                 text-align: center;
                 height: 100%;
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                box-shadow: $shadow;
 
                 h3 {
                     margin-top: 0;
@@ -354,7 +386,7 @@ header {
         padding: 20px;
         text-align: center;
         height: 100%;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: $shadow;
     }
 
 }
@@ -385,7 +417,7 @@ header {
                 padding: 20px;
                 text-align: center;
                 height: 100%;
-                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                box-shadow: $shadow;
 
                 h3 {
                     margin-top: 0;
@@ -411,7 +443,7 @@ header {
         border: 1px solid #ccc;
         background-color: #f9f9f9;
         padding: 20px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        box-shadow: $shadow;
 
 
     }
@@ -434,4 +466,18 @@ header {
     p {
         text-align: justify;
     }
+}
+
+//JS
+.slide-in {
+    transform: translateY(-10%);
+    opacity: 1;
+    transition: transform 0.5s ease-out, opacity 1s ease-out;
+    position: relative;
+    /* ou absolute selon le contexte */
+}
+
+.slide-in.show {
+    transform: translateY(0);
+    opacity: 1;
 }

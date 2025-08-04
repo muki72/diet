@@ -27,7 +27,7 @@
             Différents paramètres de la composition corporel sont mesurés :</p>
 
         <div class="table-container">
-            <div class="table">
+            <div class="table slide-in">
                 <div class="banner">
                     <h3>Masse grasse</h3>
                     <p>Pour évaluer la proportion de graisses dans le corps</p>
@@ -58,13 +58,14 @@
             </div>
         </div>
         <p>Avec cette analyse performante, on obtient également une vue détaillée de la répartition de la masse grasse ainsi que de la masse maigre dans le corps</p>
-        <img src="assets\schéma.png" alt="schéma" >
+        <img src="assets\schéma.png" alt="schéma">
         <p>Dans l’objectif d’un suivi diététique, le bilan corporel est proposé à chaque consultation, compris dans le tarif de cette dernière.
             Il est également possible de réaliser un bilan corporel unique, hors cadre d’un suivi diététique, pour les personnes désireuses de suivre leurs évolutions.</p>
     </div>
     <?php
     include("footer.php");
     ?>
+    <script src="script.js"></script>
 </body>
 
 </html>

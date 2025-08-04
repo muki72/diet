@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <button>Reserver sur Doctolib</button>
+        <button class="slide-in">Reserver sur Doctolib</button>
         <h2>Qui peut en bénéficier ?</h2>
         <div class="column">
             <h3>Chacun peut tirer profit d’un suivi diététique, car l'alimentation joue un rôle clé dans notre santé à chaque étape de la vie. </h3>
@@ -50,6 +50,7 @@
     <?php
     include("footer.php");
     ?>
+    <script src="script.js"></script>
 </body>
 
 </html>

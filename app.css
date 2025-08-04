@@ -62,13 +62,16 @@ button:active {
 
 nav {
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 2;
   justify-content: space-between;
   border-bottom: solid 2px #d06767;
   background-color: #EBE1D6;
 }
 nav .logo {
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
   margin-left: 50px;
 }
 nav a {
@@ -81,10 +84,11 @@ nav .actions {
   align-items: center;
   margin-top: 25px;
   font-family: "Pompiere", sans-serif;
-  font-size: 3em;
+  font-size: 1.5em;
   gap: 200px;
   width: 90%;
-  height: 100px;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 nav .actions a:hover {
   -webkit-text-decoration: underline 2px;
@@ -96,10 +100,15 @@ footer {
   align-items: center;
   flex-direction: column;
   border-top: solid 2px #d06767;
-  gap: 2em;
-  font-size: 1em;
+  gap: 1em;
   padding: 2em;
   background-color: #EBE1D6;
+}
+footer h2 {
+  font-size: 2em;
+}
+footer p {
+  font-size: 1em;
 }
 
 header {
@@ -129,6 +138,7 @@ header h1 {
 .container {
   display: flex;
   flex-direction: column;
+  text-align: center;
   margin: 0px 3em;
   gap: 3em;
   font-family: "Glacial Indifference", sans-serif;
@@ -136,6 +146,10 @@ header h1 {
 .container .profil {
   display: flex;
   margin: 1em 3em;
+  background-color: #f9f9f9;
+  border-bottom: solid 2px #d06767;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .container .profil img {
   width: 600px;
@@ -156,6 +170,11 @@ header h1 {
   align-items: center;
   gap: 3em;
   margin: 1em 3em;
+  padding: 1em;
+  background-color: #f9f9f9;
+  border-bottom: solid 2px #d06767;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .container .review {
   display: flex;
@@ -181,6 +200,13 @@ header h1 {
   align-items: center;
   gap: 3em;
   margin: 1em 3em;
+  background-color: #f9f9f9;
+  border-bottom: solid 2px #d06767;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.container .place iframe {
+  border-radius: 15px;
 }
 .container .place .address {
   text-align: center;
@@ -333,4 +359,17 @@ header h1 {
 }
 .rgpd p {
   text-align: justify;
+}
+
+.slide-in {
+  transform: translateY(-10%);
+  opacity: 1;
+  transition: transform 0.5s ease-out, opacity 1s ease-out;
+  position: relative;
+  /* ou absolute selon le contexte */
+}
+
+.slide-in.show {
+  transform: translateY(0);
+  opacity: 1;
 }/*# sourceMappingURL=app.css.map */

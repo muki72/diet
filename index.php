@@ -40,7 +40,7 @@
                 <h2>Lisa Mercier</h2>
                 <p>Diététicienne Nutritionniste diplômée</p>
                 <p>En cabinet à Savigné l’Evêque et à votre domicile</p>
-                <button>Reserver sur Doctolib</button>
+                <button class="slide-in">Reserver sur Doctolib</button>
             </div>
         </div>
         <div class="intro">
@@ -58,18 +58,18 @@
             <h2>Les avis Google</h2>
             <!-- Elfsight Google Reviews | Untitled Google Reviews -->
             <script src="https://static.elfsight.com/platform/platform.js" async></script>
-            <div class="elfsight-app-5449fafa-ad30-4589-bb6d-b6e64a31a9da" data-elfsight-app-lazy></div>
+            <div class="elfsight-app-5449fafa-ad30-4589-bb6d-b6e64a31a9da slide-in" data-elfsight-app-lazy></div>
         </div>
         <div class="reservation">
             <h2>Réservation</h2>
-            <div class="btn-actions">
+            <div class="btn-actions slide-in">
                 <button>Individuel</button>
                 <button>Couple</button>
                 <button>Bilan corporel</button>
             </div>
         </div>
+        <h2>Le cabinet</h2>
         <div class="place">
-            <h2>Le cabinet</h2>
             <div class="inline">
                 <div class="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2665.599631250852!2d0.29540891241573847!3d48.07937045509113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e28a820e0568bb%3A0xb14492b0a40ff21b!2s5%20Rte%20de%20Beaufay%2C%2072460%20Savign%C3%A9-l&#39;%C3%89v%C3%AAque!5e0!3m2!1sfr!2sfr!4v1753714580826!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -101,7 +101,7 @@
     <?php
     include("footer.php");
     ?>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
