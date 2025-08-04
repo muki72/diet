@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site dédié au suivi nutritionnel, bilans InBody et consultations diététiques. Prenez soin de votre santé.">
     <link rel="shortcut icon" href="assets\logo.png" type="image/x-icon">
     <link rel="stylesheet" href="app.css">
     <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
@@ -45,7 +46,7 @@
             <h3>Chacun peut tirer profit d’un suivi diététique, car l'alimentation joue un rôle clé dans notre santé à chaque étape de la vie. </h3>
             <p>Que vous souhaitiez améliorer vos habitudes alimentaires, optimiser vos performances sportives, perdre ou prendre du poids de manière durable, ce suivi est conçu pour vous accompagner dans l’atteinte de vos objectifs. Les jeunes, les femmes enceintes et les seniors peuvent également tirer parti d’un suivi diététique, car leurs besoins nutritionnels spécifiques nécessitent des conseils adaptés pour assurer leur santé et leur bien-être. Les personnes confrontées à des problématiques de santé, telles que le diabète, l’hypertension, les troubles digestifs ou les déséquilibres hormonaux, peuvent également tirer un grand bénéfice d'un accompagnement personnalisé pour mieux gérer leur condition.</p>
         </div>
-        </div>
+    </div>
     <?php
     include("footer.php");
     ?>

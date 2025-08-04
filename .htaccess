@@ -1,0 +1,14 @@
+RewriteEngine On
+
+
+# Bloque l’accès aux fichiers sensibles
+<FilesMatch "\.(htaccess|env|git|log|sql)$">
+  Require all denied
+</FilesMatch>
+
+# Redirection index.php → /accueil
+RewriteRule ^accueil$ index.php [L]
+
+# Réécriture des autres fichiers 
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(consultations|inbody|rgpd|tarifs)$ $1.php [L]
