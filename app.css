@@ -3,20 +3,27 @@
   margin: 0px;
 }
 
+body {
+  background-color: rgb(255, 255, 255);
+}
+
 h2 {
   font-size: 4em;
   font-family: "Pompiere", sans-serif;
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 h3 {
   font-size: 3em;
   font-family: "Glacial Indifference", sans-serif;
   font-weight: 100;
+  text-transform: uppercase;
 }
 
 p {
   font-size: 2em;
+  line-height: 1.5;
 }
 
 a {
@@ -36,9 +43,9 @@ a {
 }
 
 button {
-  min-width: 300px;
-  max-width: 400px;
-  font-size: 1.3em;
+  min-width: 350px;
+  max-width: 450px;
+  font-size: 1.6em;
   font-family: "Glacial Indifference", sans-serif;
   padding: 0.5em 2em;
   border: solid 2px #d06767;
@@ -67,7 +74,7 @@ nav {
   z-index: 2;
   justify-content: space-between;
   border-bottom: solid 2px #d06767;
-  background-color: #EBE1D6;
+  background-color: #FFFFFF;
 }
 nav .logo {
   width: 80px;
@@ -80,11 +87,11 @@ nav a {
 }
 nav .actions {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: end;
   margin-top: 25px;
+  margin-right: 3em;
   font-family: "Pompiere", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.8em;
   gap: 200px;
   width: 90%;
   height: -moz-fit-content;
@@ -128,7 +135,7 @@ header h1 {
   justify-content: center;
   font-family: "Glacial Indifference", sans-serif;
   color: #EBE1D6;
-  font-size: 3em;
+  font-size: 2.6em;
   font-weight: 100;
   background-color: rgba(208, 103, 103, 0.8);
   width: 100%;
@@ -140,12 +147,14 @@ header h1 {
   flex-direction: column;
   text-align: center;
   margin: 0px 3em;
-  gap: 3em;
+  gap: 10em;
+  padding-bottom: 10em;
   font-family: "Glacial Indifference", sans-serif;
 }
 .container .profil {
   display: flex;
-  margin: 1em 3em;
+  margin: 3em;
+  padding: 5em;
   background-color: #f9f9f9;
   border-bottom: solid 2px #d06767;
   border-radius: 15px;
@@ -170,7 +179,7 @@ header h1 {
   align-items: center;
   gap: 3em;
   margin: 1em 3em;
-  padding: 1em;
+  padding: 3em;
   background-color: #f9f9f9;
   border-bottom: solid 2px #d06767;
   border-radius: 15px;
@@ -196,37 +205,38 @@ header h1 {
 }
 .container .place {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3em;
+  flex-direction: row;
   margin: 1em 3em;
+  padding: 2em;
   background-color: #f9f9f9;
   border-bottom: solid 2px #d06767;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.container .place iframe {
+.container .place .inline {
+  gap: 5em;
+}
+.container .place .inline iframe {
   border-radius: 15px;
 }
-.container .place .address {
+.container .place .inline .address {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  width: 60%;
+  gap: 2em;
 }
-.container .place .address h3 {
+.container .place .inline .address h3 {
   font-size: 2em;
 }
-.container .place .address p {
+.container .place .inline .address p {
   font-size: 1em;
-}
-.container .place img {
-  width: 600px;
-  height: 450px;
-  border-radius: 15px;
 }
 .container .contact {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3em;
+  gap: 2em;
   margin: 1em 3em;
 }
 .container .contact i {
@@ -236,19 +246,20 @@ header h1 {
 .container .contact .infos {
   gap: 3em;
 }
-
-.consult {
-  padding-bottom: 2em;
+.container .contact a {
+  font-size: 2em;
+  text-decoration: none;
 }
+
 .consult h2 {
   text-align: center;
   padding: 1em;
 }
 .consult .column {
-  gap: 0.5em;
+  gap: 2em;
   border: 1px solid #ccc;
   background-color: #f9f9f9;
-  padding: 20px;
+  padding: 3em;
   text-align: justify;
   height: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -261,11 +272,12 @@ header h1 {
   display: flex;
   align-items: center;
   text-align: center;
-  padding-bottom: 2em;
+  gap: 5em;
+  padding-bottom: 5em;
 }
 .tarifs h2 {
   text-align: center;
-  padding: 0.5em;
+  padding: 1em;
 }
 .tarifs .table-container .table {
   display: grid;
@@ -293,17 +305,21 @@ header h1 {
   scale: 1.01;
 }
 .tarifs .column {
-  gap: 1em;
+  gap: 2em;
   border: 1px solid #ccc;
   background-color: #f9f9f9;
-  padding: 20px;
+  padding: 3em;
   text-align: center;
   height: 100%;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+.tarifs .column h3 {
+  font-size: 2.5em;
+  text-transform: none;
+}
 
 .inb {
-  padding-bottom: 2em;
+  padding-bottom: 5em;
   align-items: center;
 }
 .inb h2 {
@@ -319,21 +335,25 @@ header h1 {
   gap: 20px;
 }
 .inb .table-container .table .banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: 1px solid #ccc;
   background-color: #f9f9f9;
   padding: 20px;
   text-align: center;
-  height: 100%;
+  height: 300px;
+  width: 300px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .inb .table-container .table .banner h3 {
-  margin-top: 0;
-  color: #151515;
+  font-size: 2em;
 }
 .inb .table-container .table .banner p {
   margin: 1em 0;
   color: #555;
   font-size: 1.5em;
+  text-align: center;
 }
 .inb .table-container .table .banner:hover {
   scale: 1.01;
@@ -350,8 +370,25 @@ header h1 {
 }
 
 .rgpd {
-  padding-bottom: 2em;
+  display: flex;
   align-items: center;
+  justify-content: center;
+  padding-bottom: 2em;
+}
+.rgpd ul {
+  list-style: none;
+  margin-right: 10em;
+}
+.rgpd ul li {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  margin-bottom: 1em;
+}
+.rgpd ul li::before {
+  content: attr(data-label);
+  font-weight: bold;
+  text-align: right;
+  padding-right: 1em;
 }
 .rgpd h2 {
   text-align: center;
@@ -359,17 +396,4 @@ header h1 {
 }
 .rgpd p {
   text-align: justify;
-}
-
-.slide-in {
-  transform: translateY(-10%);
-  opacity: 1;
-  transition: transform 0.5s ease-out, opacity 1s ease-out;
-  position: relative;
-  /* ou absolute selon le contexte */
-}
-
-.slide-in.show {
-  transform: translateY(0);
-  opacity: 1;
 }/*# sourceMappingURL=app.css.map */

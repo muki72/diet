@@ -27,7 +27,7 @@
             Différents paramètres de la composition corporel sont mesurés :</p>
 
         <div class="table-container">
-            <div class="table slide-in">
+            <div class="table">
                 <div class="banner">
                     <h3>Masse grasse</h3>
                     <p>Pour évaluer la proportion de graisses dans le corps</p>

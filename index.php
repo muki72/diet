@@ -30,21 +30,21 @@
     include("nav.php");
     ?>
     <header>
-        <h1>Parce que chaque parcours est unique, votre nutrition aussi</h1>
+        <h1>PARCE QUE CHAQUE PARCOURS EST UNIQUE, VOTRE NUTRITION AUSSI</h1>
     </header>
     <div class="container">
 
         <div class="profil">
             <img src="assets\face.jpeg" alt="Lisa Mercier">
             <div class="infos">
-                <h2>Lisa Mercier</h2>
+                <h2>Lisa MERCIER</h2>
                 <p>Diététicienne Nutritionniste diplômée</p>
                 <p>En cabinet à Savigné l’Evêque et à votre domicile</p>
-                <button class="slide-in">Reserver sur Doctolib</button>
+                <button>Reserver sur Doctolib</button>
             </div>
         </div>
         <div class="intro">
-            <h2>Qui suis-je ?</h2>
+            <h2>QUI SUIS-JE ?</h2>
 
             <p>Passionnée par l’accompagnement humain, je suis titulaire d’un BTS ESF depuis 2016, ce qui m’a permis d’acquérir une solide expérience dans le domaine social, auprès de publics variés.
 
@@ -54,15 +54,15 @@
 
                 Aujourd’hui, je vous reçois au cabinet ou me déplace à domicile avec ma balance professionnelle. En individuel ou en duo (couple, parent/enfant...), je propose un accompagnement personnalisé et adapté à vos besoins.</p>
         </div>
+        <h2>Les avis Google</h2>
         <div class="review">
-            <h2>Les avis Google</h2>
             <!-- Elfsight Google Reviews | Untitled Google Reviews -->
             <script src="https://static.elfsight.com/platform/platform.js" async></script>
-            <div class="elfsight-app-5449fafa-ad30-4589-bb6d-b6e64a31a9da slide-in" data-elfsight-app-lazy></div>
+            <div class="elfsight-app-5449fafa-ad30-4589-bb6d-b6e64a31a9da " data-elfsight-app-lazy></div>
         </div>
+        <h2>Réservation</h2>
         <div class="reservation">
-            <h2>Réservation</h2>
-            <div class="btn-actions slide-in">
+            <div class="btn-actions">
                 <button>Individuel</button>
                 <button>Couple</button>
                 <button>Bilan corporel</button>
@@ -79,11 +79,10 @@
                     <p>Le cabinet est accessible pour les personnes en situation de handicap.
                         Un parking est disponible sur place.</p>
                 </div>
-                <img src="assets\desk.jpeg" alt="Lisa Mercier">
             </div>
         </div>
+        <h2>Contact</h2>
         <div class="contact">
-            <h2>Contact</h2>
             <div class="inline infos">
                 <div class="inline">
                     <i class="fa-solid fa-phone"></i>
@@ -93,7 +92,12 @@
                     <i class="fa-solid fa-envelope"></i>
                     <p>contact@lisamercierdieteticienne.fr</p>
                 </div>
-                <button>Reserver sur Doctolib</button>
+                <div class="inline">
+                    <i class="fa-brands fa-facebook"></i>
+                    <a href="https://www.facebook.com/profile.php?id=100089355216761" target="_blank">Lisa MERCIER</a>
+
+                </div>
+
             </div>
         </div>
 

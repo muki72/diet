@@ -25,18 +25,18 @@
         </p>
         <h3>Éditeur du site : </h3>
         <ul>
-            <li>Nom : MERCIER Lisa </li>
-            <li>Titre professionnel : Diététicienne Nutritionniste diplômée d’État </li>
-            <li>Numéro ADELI : [À compléter] </li>
-            <li>Statut : Micro-entreprise</li>
-            <li>SIRET : [À compléter] </li>
-            <li>Adresse professionnelle : 5 route de Beaufay 72460 Savigné l’Évêque</li>
-            <li>Téléphone : 06.45.81.03.91 </li>
-            <li>E-mail : contact@lisamercier-dieteticienne.fr </li>
-            <li>Hébergeur : OVH </li>
-            <li>Siège social : 2 rue Kellermann – 59100 Roubaix – France</li>
-            <li>Téléphone : 1007 </li>
-            <li>Site web : https://www.ovh.com </li>
+            <li data-label="Nom :">MERCIER Lisa</li>
+            <li data-label="Titre professionnel :">Diététicienne Nutritionniste diplômée d’État</li>
+            <li data-label="Numéro ADELI :">[À compléter]</li>
+            <li data-label="Statut :">Micro-entreprise</li>
+            <li data-label="SIRET :">[À compléter]</li>
+            <li data-label="Adresse professionnelle :">5 route de Beaufay 72460 Savigné l’Évêque</li>
+            <li data-label="Téléphone :">06.45.81.03.91</li>
+            <li data-label="E-mail :">contact@lisamercier-dieteticienne.fr</li>
+            <li data-label="Hébergeur :">OVH</li>
+            <li data-label="Siège social :">2 rue Kellermann – 59100 Roubaix – France</li>
+            <li data-label="Téléphone :">1007</li>
+            <li data-label="Site web :">https://www.ovh.com</li>
         </ul>
         <p>Profession réglementée par le Code de la santé publique – Article L.4371-1. </p>
         <h2> POLITIQUE DE CONFIDENTIALITÉ & GESTION DES DONNÉES PERSONNELLES :
