@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <button>Reserver sur Doctolib</button>
+        <button>Reserver sur <img class="doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib" /></button>
         <h2>Qui peut en bénéficier ?</h2>
         <div class="column">
             <h3>Chacun peut tirer profit d’un suivi diététique, car l'alimentation joue un rôle clé dans notre santé à chaque étape de la vie. </h3>

@@ -40,7 +40,8 @@
                 <h2>Lisa MERCIER</h2>
                 <p>Diététicienne Nutritionniste diplômée</p>
                 <p>En cabinet à Savigné l’Evêque et à votre domicile</p>
-                <button>Reserver sur Doctolib</button>
+                <a href="https://www.doctolib.fr/dieteticien/savigne-l-eveque/lisa-mercier" target="_blank"><button>Reserver sur <img class="doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib" /></button></a>
+
             </div>
         </div>
         <div class="intro">

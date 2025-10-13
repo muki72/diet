@@ -87,7 +87,17 @@ button {
     &:active {
         transform: scale(0.98);
     }
+
+    img {
+        height: 30px;
+        margin-bottom: 3px;
+        vertical-align: middle;
+        width: auto
+    }
+
 }
+
+
 
 
 
@@ -215,6 +225,13 @@ header {
             justify-content: center;
             gap: 3em;
             width: 100%;
+        }
+
+        .doctolib {
+            height: 30px;
+            margin-bottom: 3px;
+            vertical-align: middle;
+            width: auto
         }
 
     }
