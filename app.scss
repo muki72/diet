@@ -350,11 +350,12 @@ header {
 
     .column {
         gap: 2em;
-        border: 1px solid #ccc;
-        background-color: #f9f9f9;
         padding: 3em;
         text-align: justify;
         height: 100%;
+        background-color: #f9f9f9;
+        border-bottom: solid 2px $color-orange;
+        border-radius: 15px;
         box-shadow: $shadow;
     }
 
@@ -384,12 +385,14 @@ header {
             gap: 20px;
 
             .banner {
-                border: 1px solid #ccc;
-                background-color: #f9f9f9;
                 padding: 20px;
                 text-align: center;
                 height: 100%;
+                background-color: #f9f9f9;
+                border-bottom: solid 2px $color-orange;
+                border-radius: 15px;
                 box-shadow: $shadow;
+
 
                 h3 {
                     margin-top: 0;
@@ -412,12 +415,14 @@ header {
 
     .column {
         gap: 2em;
-        border: 1px solid #ccc;
-        background-color: #f9f9f9;
         padding: 3em;
         text-align: center;
         height: 100%;
+        background-color: #f9f9f9;
+        border-bottom: solid 2px $color-orange;
+        border-radius: 15px;
         box-shadow: $shadow;
+
 
         h3 {
             font-size: 2.5em;
@@ -451,12 +456,13 @@ header {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
-                border: 1px solid #ccc;
-                background-color: #f9f9f9;
                 padding: 20px;
                 text-align: center;
                 height: 300px;
                 width: 300px;
+                background-color: #f9f9f9;
+                border-bottom: solid 2px $color-orange;
+                border-radius: 15px;
                 box-shadow: $shadow;
 
                 h3 {
@@ -481,9 +487,10 @@ header {
 
     img {
         width: 50%;
-        border: 1px solid #ccc;
-        background-color: #f9f9f9;
         padding: 20px;
+        background-color: #f9f9f9;
+        border-bottom: solid 2px $color-orange;
+        border-radius: 15px;
         box-shadow: $shadow;
 
 

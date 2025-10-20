@@ -64,9 +64,8 @@
         <h2>Réservation</h2>
         <div class="reservation">
             <div class="btn-actions">
-                <button>Individuel</button>
-                <button>Couple</button>
-                <button>Bilan corporel</button>
+                <a href="tarifs"><button>Tarifs</button></a>
+                <a href="https://www.doctolib.fr/dieteticien/savigne-l-eveque/lisa-mercier" target="_blank"><button>Reserver sur <img class="doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib" /></button></a>
             </div>
         </div>
         <h2>Le cabinet</h2>

@@ -269,11 +269,12 @@ header h1 {
 }
 .consult .column {
   gap: 2em;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
   padding: 3em;
   text-align: justify;
   height: 100%;
+  background-color: #f9f9f9;
+  border-bottom: solid 2px #d06767;
+  border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .consult .column:hover {
@@ -297,11 +298,12 @@ header h1 {
   gap: 20px;
 }
 .tarifs .table-container .table .banner {
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
   padding: 20px;
   text-align: center;
   height: 100%;
+  background-color: #f9f9f9;
+  border-bottom: solid 2px #d06767;
+  border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .tarifs .table-container .table .banner h3 {
@@ -318,11 +320,12 @@ header h1 {
 }
 .tarifs .column {
   gap: 2em;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
   padding: 3em;
   text-align: center;
   height: 100%;
+  background-color: #f9f9f9;
+  border-bottom: solid 2px #d06767;
+  border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .tarifs .column h3 {
@@ -350,12 +353,13 @@ header h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
   padding: 20px;
   text-align: center;
   height: 300px;
   width: 300px;
+  background-color: #f9f9f9;
+  border-bottom: solid 2px #d06767;
+  border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .inb .table-container .table .banner h3 {
@@ -372,9 +376,10 @@ header h1 {
 }
 .inb img {
   width: 50%;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
   padding: 20px;
+  background-color: #f9f9f9;
+  border-bottom: solid 2px #d06767;
+  border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .inb img:hover {
