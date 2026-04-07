@@ -4,26 +4,31 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #f8f2ee;
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 3em;
   font-family: "Pompiere", sans-serif;
   font-weight: 100;
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 3em;
-  font-family: "Glacial Indifference", sans-serif;
-  font-weight: 100;
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
 p {
-  font-size: 2em;
+  font-size: 1.2em;
   line-height: 1.5;
+}
+
+g {
+  color: #cf7c66;
+  font-weight: 600;
 }
 
 a {
@@ -43,32 +48,31 @@ a {
 }
 
 button {
-  min-width: 350px;
-  max-width: 450px;
-  font-size: 1.6em;
-  font-family: "Glacial Indifference", sans-serif;
+  width: 300px;
+  font-size: 1.2em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
   padding: 0.5em 2em;
-  border: solid 2px #d06767;
+  border: solid 2px #cf7c66;
   border-radius: 50px;
-  background-color: #EBE1D6;
-  color: #d06767;
+  background-color: #cf7c66;
+  color: #f8f2ee;
   cursor: pointer;
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 button:hover {
-  background-color: #d06767;
-  color: #EBE1D6;
-  box-shadow: 0 0 10px rgba(208, 103, 103, 0.6), 0 0 20px rgba(208, 103, 103, 0.4);
+  box-shadow: 0 0 10px rgba(207, 124, 102, 0.6), 0 0 20px rgba(207, 124, 102, 0.4);
   transform: scale(1.05);
 }
 button:active {
   transform: scale(0.98);
 }
 button img {
-  height: 30px;
-  margin-bottom: 3px;
+  height: 20px;
+  margin-bottom: 2px;
   vertical-align: middle;
   width: auto;
 }
@@ -79,13 +83,20 @@ nav {
   top: 0;
   z-index: 2;
   justify-content: space-between;
-  border-bottom: solid 2px #d06767;
+  border-bottom: solid 10px #cf7c66;
   background-color: #FFFFFF;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 nav .logo {
   width: 80px;
   height: 80px;
   margin-left: 50px;
+  transition: all 0.3s ease-out;
+}
+nav img:hover {
+  -webkit-text-decoration: underline 2px #cf7c66;
+          text-decoration: underline 2px #cf7c66;
+  scale: 1.09;
 }
 nav a {
   color: #151515;
@@ -96,26 +107,31 @@ nav .actions {
   justify-content: end;
   margin-top: 25px;
   margin-right: 3em;
-  font-family: "Pompiere", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.8em;
-  gap: 200px;
+  gap: 2em;
   width: 90%;
   height: -moz-fit-content;
   height: fit-content;
 }
+nav .actions a {
+  transition: all 0.3s ease-out;
+}
 nav .actions a:hover {
-  -webkit-text-decoration: underline 2px;
-          text-decoration: underline 2px;
+  -webkit-text-decoration: underline 2px #cf7c66;
+          text-decoration: underline 2px #cf7c66;
+  scale: 1.09;
 }
 
 footer {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border-top: solid 2px #d06767;
+  border-top: solid 2px #cf7c66;
   gap: 1em;
   padding: 2em;
-  background-color: #EBE1D6;
+  background-color: #cf7c66;
+  color: #f8f2ee;
 }
 footer h2 {
   font-size: 2em;
@@ -123,27 +139,24 @@ footer h2 {
 footer p {
   font-size: 1em;
 }
-
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 400px;
-  background-image: url("assets/background.jpg");
-  background-position: center;
-  background-size: cover;
-  border-bottom: solid 2px #d06767;
+footer a {
+  color: #f8f2ee;
+  text-decoration: none;
 }
+footer a:hover {
+  -webkit-text-decoration: underline 2px #f8f2ee;
+          text-decoration: underline 2px #f8f2ee;
+}
+
 header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Glacial Indifference", sans-serif;
-  color: #EBE1D6;
+  font-family: "Pompiere", sans-serif;
+  color: #f8f2ee;
   font-size: 2.6em;
   font-weight: 100;
-  background-color: rgba(208, 103, 103, 0.8);
+  background-color: rgba(207, 124, 102, 0.8);
   width: 100%;
   height: 150px;
 }
@@ -152,23 +165,23 @@ header h1 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 0px 3em;
-  gap: 10em;
+  margin: 0px 18em;
+  gap: 5em;
   padding-bottom: 10em;
-  font-family: "Glacial Indifference", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .container .profil {
   display: flex;
   margin: 3em;
-  padding: 5em;
+  padding: 2em;
   background-color: #f9f9f9;
-  border-bottom: solid 2px #d06767;
+  border-bottom: solid 2px #cf7c66;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .container .profil img {
-  width: 600px;
-  height: 450px;
+  width: 640px;
+  height: 320px;
   border-radius: 15px;
 }
 .container .profil .infos {
@@ -176,8 +189,16 @@ header h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3em;
+  gap: 2em;
   width: 100%;
+}
+.container .profil .infos h4 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.container .profil .infos p {
+  font-size: 1em;
+  font-weight: 400;
 }
 .container .profil .doctolib {
   height: 30px;
@@ -188,14 +209,10 @@ header h1 {
 .container .intro {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 3em;
+  align-items: justify;
+  gap: 2em;
   margin: 1em 3em;
   padding: 3em;
-  background-color: #f9f9f9;
-  border-bottom: solid 2px #d06767;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .container .review {
   display: flex;
@@ -204,45 +221,40 @@ header h1 {
   gap: 3em;
   margin: 1em 3em;
 }
-.container .reservation {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3em;
-  margin: 1em 3em;
-}
-.container .reservation .btn-actions {
-  display: flex;
-  gap: 3em;
-}
 .container .place {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 1em 3em;
   padding: 2em;
   background-color: #f9f9f9;
-  border-bottom: solid 2px #d06767;
+  border-bottom: solid 2px #cf7c66;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .container .place .inline {
-  gap: 5em;
-}
-.container .place .inline iframe {
-  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
 }
 .container .place .inline .address {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  width: 60%;
   gap: 2em;
+  max-width: 450px;
 }
-.container .place .inline .address h3 {
-  font-size: 2em;
+.container .place .inline h3 {
+  font-size: 1.5em;
+  font-weight: 400;
 }
-.container .place .inline .address p {
-  font-size: 1em;
+.container .place .inline iframe {
+  border-radius: 15px;
+  flex-shrink: 0;
+  width: 512px;
+  height: 256px;
+}
+.container .place p {
+  margin-top: 2em;
 }
 .container .contact {
   display: flex;
@@ -253,14 +265,17 @@ header h1 {
 }
 .container .contact i {
   font-size: 2em;
-  color: #d06767;
+  color: #cf7c66;
 }
 .container .contact .infos {
   gap: 3em;
 }
 .container .contact a {
-  font-size: 2em;
   text-decoration: none;
+}
+.container .contact a:hover {
+  -webkit-text-decoration: underline 2px #cf7c66;
+          text-decoration: underline 2px #cf7c66;
 }
 
 .consult h2 {
@@ -269,23 +284,25 @@ header h1 {
 }
 .consult .column {
   gap: 2em;
-  padding: 3em;
+  padding: 2em;
   text-align: justify;
   height: 100%;
   background-color: #f9f9f9;
-  border-bottom: solid 2px #d06767;
+  border-bottom: solid 2px #cf7c66;
+  border-right: solid 2px #cf7c66;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease-out;
 }
 .consult .column:hover {
-  scale: 1.01;
+  scale: 1.1;
 }
 
 .tarifs {
   display: flex;
   align-items: center;
   text-align: center;
-  gap: 5em;
+  gap: 3em;
   padding-bottom: 5em;
 }
 .tarifs h2 {
@@ -302,35 +319,34 @@ header h1 {
   text-align: center;
   height: 100%;
   background-color: #f9f9f9;
-  border-bottom: solid 2px #d06767;
+  border-bottom: solid 2px #cf7c66;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
 }
 .tarifs .table-container .table .banner h3 {
+  font-size: 1.5em;
+  font-weight: 400;
   margin-top: 0;
   color: #151515;
 }
 .tarifs .table-container .table .banner p {
   margin: 1em 0;
   color: #555;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 .tarifs .table-container .table .banner:hover {
-  scale: 1.01;
+  scale: 1.08;
 }
 .tarifs .column {
-  gap: 2em;
+  gap: 1em;
   padding: 3em;
   text-align: center;
   height: 100%;
-  background-color: #f9f9f9;
-  border-bottom: solid 2px #d06767;
-  border-radius: 15px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.tarifs .column h3 {
-  font-size: 2.5em;
-  text-transform: none;
+.tarifs .column p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .inb {
@@ -358,7 +374,7 @@ header h1 {
   height: 300px;
   width: 300px;
   background-color: #f9f9f9;
-  border-bottom: solid 2px #d06767;
+  border-bottom: solid 2px #cf7c66;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -378,7 +394,7 @@ header h1 {
   width: 50%;
   padding: 20px;
   background-color: #f9f9f9;
-  border-bottom: solid 2px #d06767;
+  border-bottom: solid 2px #cf7c66;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }

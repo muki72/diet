@@ -1,13 +1,13 @@
 //fonts
-$glacial: 'Glacial Indifference', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
 $pompiere: 'Pompiere', sans-serif;
 
 
 
 $color-black: #151515;
 $color-white: #FFFFFF;
-$color-Beige: #EBE1D6;
-$color-orange: #d06767;
+$color-Beige: #f8f2ee;
+$color-orange: #cf7c66;
 
 $shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
@@ -18,11 +18,11 @@ $shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: $color-Beige;
 }
 
 h2 {
-    font-size: 4em;
+    font-size: 3em;
     font-family: $pompiere;
     font-weight: 100;
     text-transform: uppercase;
@@ -30,15 +30,20 @@ h2 {
 }
 
 h3 {
-    font-size: 3em;
-    font-family: $glacial;
-    font-weight: 100;
+    font-size: 2em;
+    font-family: $montserrat;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
 p {
-    font-size: 2em;
+    font-size: 1.2em;
     line-height: 1.5;
+}
+
+g {
+    color: $color-orange;
+    font-weight: 600;
 }
 
 a {
@@ -60,24 +65,23 @@ a {
 
 
 button {
-    min-width: 350px;
-    max-width: 450px;
-    font-size: 1.6em;
-    font-family: $glacial;
+    width: 300px;
+    font-size: 1.2em;
+    font-family: $montserrat;
+    font-weight: 700;
     padding: 0.5em 2em;
     border: solid 2px $color-orange;
     border-radius: 50px;
-    background-color: $color-Beige;
-    color: $color-orange;
+    background-color: $color-orange;
+    color: $color-Beige;
     cursor: pointer;
     position: relative;
     overflow: hidden;
     transition: all 0.3s ease;
+    box-shadow: $shadow;
 
 
     &:hover {
-        background-color: $color-orange;
-        color: $color-Beige;
         box-shadow: 0 0 10px rgba($color-orange, 0.6),
             0 0 20px rgba($color-orange, 0.4);
         transform: scale(1.05);
@@ -89,8 +93,8 @@ button {
     }
 
     img {
-        height: 30px;
-        margin-bottom: 3px;
+        height: 20px;
+        margin-bottom: 2px;
         vertical-align: middle;
         width: auto
     }
@@ -108,14 +112,24 @@ nav {
     top: 0;
     z-index: 2;
     justify-content: space-between;
-    border-bottom: solid 2px $color-orange;
+    border-bottom: solid 10px $color-orange;
     background-color: $color-white;
-
+    box-shadow: $shadow;
 
     .logo {
         width: 80px;
         height: 80px;
         margin-left: 50px;
+        transition: all 0.3s ease-out;
+
+
+
+    }
+
+    img:hover {
+        text-decoration: underline 2px $color-orange;
+        scale: 1.09;
+
     }
 
     a {
@@ -131,14 +145,23 @@ nav {
         justify-content: end;
         margin-top: 25px;
         margin-right: 3em;
-        font-family: $pompiere;
+        font-family: $montserrat;
         font-size: 1.8em;
-        gap: 200px;
+        gap: 2em;
         width: 90%;
         height: fit-content;
 
+
+        a {
+            transition: all 0.3s ease-out;
+
+        }
+
         a:hover {
-            text-decoration: underline 2px;
+            text-decoration: underline 2px $color-orange;
+            scale: 1.09;
+
+
         }
 
     }
@@ -153,7 +176,8 @@ footer {
     border-top: solid 2px $color-orange;
     gap: 1em;
     padding: 2em;
-    background-color: $color-Beige;
+    background-color: $color-orange;
+    color: $color-Beige;
 
     h2 {
         font-size: 2em;
@@ -162,27 +186,29 @@ footer {
     p {
         font-size: 1em;
     }
+
+    a {
+        color: $color-Beige;
+        text-decoration: none;
+
+
+
+    }
+
+    a:hover {
+        text-decoration: underline 2px $color-Beige;
+    }
 }
 
 
 //home page
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 400px;
-    background-image: url("assets/background.jpg");
-    background-position: center;
-    background-size: cover;
-    border-bottom: solid 2px $color-orange;
-
     h1 {
         display: flex;
         align-items: center;
         justify-content: center;
-        font-family: $glacial;
+        font-family: $pompiere;
         color: $color-Beige;
         font-size: 2.6em;
         font-weight: 100;
@@ -196,15 +222,15 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 0px 3em;
-    gap: 10em;
+    margin: 0px 18em;
+    gap: 5em;
     padding-bottom: 10em;
-    font-family: $glacial;
+    font-family: $montserrat;
 
     .profil {
         display: flex;
         margin: 3em;
-        padding: 5em;
+        padding: 2em;
         background-color: #f9f9f9;
         border-bottom: solid 2px $color-orange;
         border-radius: 15px;
@@ -212,8 +238,8 @@ header {
 
 
         img {
-            width: 600px;
-            height: 450px;
+            width: 640px;
+            height: 320px;
             border-radius: 15px;
 
         }
@@ -223,8 +249,18 @@ header {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 3em;
+            gap: 2em;
             width: 100%;
+
+            h4 {
+                font-size: 1.5em;
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 1em;
+                font-weight: 400;
+            }
         }
 
         .doctolib {
@@ -239,16 +275,10 @@ header {
     .intro {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        gap: 3em;
+        align-items: justify;
+        gap: 2em;
         margin: 1em 3em;
         padding: 3em;
-        background-color: #f9f9f9;
-        border-bottom: solid 2px $color-orange;
-        border-radius: 15px;
-        box-shadow: $shadow;
-
-
     }
 
     .review {
@@ -260,23 +290,10 @@ header {
 
     }
 
-    .reservation {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 3em;
-        margin: 1em 3em;
-
-        .btn-actions {
-            display: flex;
-            gap: 3em;
-        }
-    }
 
     .place {
         display: flex;
-        flex-direction: row;
-
+        flex-direction: column;
         margin: 1em 3em;
         padding: 2em;
         background-color: #f9f9f9;
@@ -285,32 +302,34 @@ header {
         box-shadow: $shadow;
 
         .inline {
-            gap: 5em;
-
-            iframe {
-                border-radius: 15px;
-
-
-            }
-
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2em;
 
             .address {
                 display: flex;
                 flex-direction: column;
-                text-align: center;
-                width: 60%;
                 gap: 2em;
+                max-width: 450px;
+            }
 
-                h3 {
-                    font-size: 2em;
-                }
+            h3 {
+                font-size: 1.5em;
+                font-weight: 400;
+            }
 
-                p {
-                    font-size: 1em;
-                }
+            iframe {
+                border-radius: 15px;
+                flex-shrink: 0;
+                width: 512px;
+                height: 256px;
             }
         }
 
+        p {
+            margin-top: 2em;
+        }
     }
 
     .contact {
@@ -331,8 +350,11 @@ header {
         }
 
         a {
-            font-size: 2em;
             text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline 2px $color-orange;
         }
 
 
@@ -350,17 +372,19 @@ header {
 
     .column {
         gap: 2em;
-        padding: 3em;
+        padding: 2em;
         text-align: justify;
         height: 100%;
         background-color: #f9f9f9;
         border-bottom: solid 2px $color-orange;
+        border-right: solid 2px $color-orange;
         border-radius: 15px;
         box-shadow: $shadow;
+        transition: all 0.5s ease-out;
     }
 
     .column:hover {
-        scale: 1.01;
+        scale: 1.1;
     }
 }
 
@@ -369,7 +393,7 @@ header {
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 5em;
+    gap: 3em;
     padding-bottom: 5em;
 
 
@@ -392,9 +416,12 @@ header {
                 border-bottom: solid 2px $color-orange;
                 border-radius: 15px;
                 box-shadow: $shadow;
+                transition: all 0.5s ease;
 
 
                 h3 {
+                    font-size: 1.5em;
+                    font-weight: 400;
                     margin-top: 0;
                     color: $color-black;
 
@@ -403,31 +430,28 @@ header {
                 p {
                     margin: 1em 0;
                     color: #555;
-                    font-size: 1.5em;
+                    font-size: 1em;
                 }
             }
 
             .banner:hover {
-                scale: 1.01;
+                scale: 1.08;
             }
         }
     }
 
     .column {
-        gap: 2em;
+        gap: 1em;
         padding: 3em;
         text-align: center;
         height: 100%;
-        background-color: #f9f9f9;
-        border-bottom: solid 2px $color-orange;
-        border-radius: 15px;
-        box-shadow: $shadow;
 
-
-        h3 {
-            font-size: 2.5em;
-            text-transform: none;
+        p {
+            font-family: $montserrat;
+            font-weight: 400;
         }
+
+
     }
 
 }

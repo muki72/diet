@@ -7,7 +7,7 @@
     <meta name="description" content="Site dédié au suivi nutritionnel, bilans InBody et consultations diététiques. Prenez soin de votre santé.">
     <link rel="shortcut icon" href="assets\logo.png" type="image/x-icon">
     <link rel="stylesheet" href="app.css">
-    <link href="https://fonts.cdnfonts.com/css/glacial-indifference-2" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/pompiere" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -31,7 +31,7 @@
                 <div class="banner">
                     <h3>Suivi nutritionnel : Couple</h3>
                     <p>Première consultation (1h15) : 90€</p>
-                    <p>Consultations de suivi (40min) : 85€</p>
+                    <p>Consultations de suivi (40min) : 80€</p>
                 </div>
                 <div class="banner">
                     <h3>Bilan corporel : Balance</h3>
@@ -43,8 +43,16 @@
         <button>Reserver sur <img class="doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib" /></button>
         <h2>Qui peut en bénéficier ?</h2>
         <div class="column">
-            <h3>Chacun peut tirer profit d’un suivi diététique, car l'alimentation joue un rôle clé dans notre santé à chaque étape de la vie. </h3>
-            <p>Que vous souhaitiez améliorer vos habitudes alimentaires, optimiser vos performances sportives, perdre ou prendre du poids de manière durable, ce suivi est conçu pour vous accompagner dans l’atteinte de vos objectifs. Les jeunes, les femmes enceintes et les seniors peuvent également tirer parti d’un suivi diététique, car leurs besoins nutritionnels spécifiques nécessitent des conseils adaptés pour assurer leur santé et leur bien-être. Les personnes confrontées à des problématiques de santé, telles que le diabète, l’hypertension, les troubles digestifs ou les déséquilibres hormonaux, peuvent également tirer un grand bénéfice d'un accompagnement personnalisé pour mieux gérer leur condition.</p>
+            <p>
+                <g>Chacun peut tirer profit d’un suivi diététique, car l'alimentation joue un rôle clé dans notre santé à chaque étape de la vie.</g>
+            </p>
+            <g></g>
+            <p>Entreprendre un suivi ne se limite pas à la <g>seule gestion du poids</g>, mais permet aussi de mieux <g>comprendre</g> ses habitudes alimentaires, d’<g>adapter</g> son alimentation à une pathologie (diabète, cholestérol, troubles digestifs…), d’<g>accompagner</g> une grossesse, de <g>préparer ou récupérer</g> d’une chirurgie, ou encore d’<g>optimiser</g> sa performance sportive et sa composition corporelle</p>
+            <p>Enfant, adolescent, adulte ou senior, quelque soit votre histoire de vie, avec ou sans particularités pathologiques, <g>je serai ravie de vous accompagner</g> pour prendre soin de <g>votre santé</g> et améliorer vos habitudes de vie.</p>
+            <p>
+                <g>Bon à savoir</g> : certaines mutuelles prennent en charge tout
+                ou partie des consultations.
+            </p>
         </div>
     </div>
     <?php
