@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Site dédié au suivi nutritionnel, bilans InBody et consultations diététiques. Prenez soin de votre santé.">
-    <link rel="shortcut icon" href="assets\logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="app.css">
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/pompiere" rel="stylesheet">
@@ -58,7 +58,7 @@
             </div>
         </div>
         <p>Avec cette analyse performante, on obtient également une vue détaillée de la répartition de la masse grasse ainsi que de la masse maigre dans le corps</p>
-        <img src="assets\schéma.png" alt="schéma">
+        <img src="assets/schéma.png" alt="schéma">
         <p>Dans l’objectif d’un suivi diététique, le bilan corporel est proposé à chaque consultation, compris dans le tarif de cette dernière.
             Il est également possible de réaliser un bilan corporel unique, hors cadre d’un suivi diététique, pour les personnes désireuses de suivre leurs évolutions.</p>
     </div>

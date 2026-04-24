@@ -8,21 +8,17 @@
 
     <meta property="og:title" content="Suivi diététique personnalisé">
     <meta property="og:description" content="Prenez soin de votre santé avec un accompagnement nutritionnel adapté.">
-
-    <!-- Changer quand Online -->
-    <meta property="og:image" content="http://localhost/diet/assets/logo.png">
-    <meta property="og:url" content="http://localhost/diet/accueil">
+    <meta property="og:image" content="https://mercier-lisa.xo.je/assets/logo.png">
+    <meta property="og:url" content="https://mercier-lisa.xo.je">
 
     <meta name="robots" content="index, follow">
-    <link rel="shortcut icon" href="assets\logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="app.css">
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/pompiere" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
-
-    <title>Lisa Mercier - Acceuil</title>
+    <title>Lisa Mercier - Accueil</title>
 </head>
 
 <body>
@@ -35,11 +31,11 @@
     <div class="container">
 
         <div class="profil">
-            <img src="assets\face.jpeg" alt="Lisa Mercier">
+            <img src="assets/face.jpg" alt="Lisa Mercier">
             <div class="infos">
                 <h2>Lisa MERCIER</h2>
                 <h4>Diététicienne - Nutritionniste</h4>
-                <p>En cabinet à Savigné l’Évêque et à domicile</p>
+                <p>En cabinet à Savigné l'Évêque et à domicile</p>
                 <a href="https://www.doctolib.fr/dieteticien/savigne-l-eveque/lisa-mercier" target="_blank"><button>Reserver sur <img class="doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib" /></button></a>
 
             </div>
@@ -47,11 +43,11 @@
         <div class="intro">
             <h2>MON APPROCHE</h2>
             <g></g>
-            <p>Passionnée par l’accompagnement humain et la nutrition, je suis <g>Diététicienne Nutritionniste</g>, diplômée d’un BTS Économie Sociale et Familiale, puis d’un BTS Diététique. Ce double parcours me permet d’allier <g>écoute</g>, <g>compréhension</g> des besoins et <g>conseils</g> alimentaires adaptés.</p>
-            <p>Formée à l’<g>alimentation en pleine conscience</g>, j’accompagne mes patients vers une relation plus <g>sereine</g> avec la nourriture, en se reconnectant aux sensations et aux besoins du corps.</p>
-            <p>Je vous reçois au cabinet ou me rend à votre domicile, en individuel ou en duo, pour un accompagnement personnalisé, bienveillant et sans jugement. Ici, <g>pas de régime ni d’interdits</g>, mais des conseils sur mesure, respectueux de votre rythme, de vos goûts et des recommandations officielles, afin d’instaurer des <g>changements durables et sans frustration</g>.</p>
+            <p>Passionnée par l'accompagnement humain et la nutrition, je suis <g>Diététicienne Nutritionniste</g>, diplômée d'un BTS Économie Sociale et Familiale, puis d'un BTS Diététique. Ce double parcours me permet d'allier <g>écoute</g>, <g>compréhension</g> des besoins et <g>conseils</g> alimentaires adaptés.</p>
+            <p>Formée à l'<g>alimentation en pleine conscience</g>, j'accompagne mes patients vers une relation plus <g>sereine</g> avec la nourriture, en se reconnectant aux sensations et aux besoins du corps.</p>
+            <p>Je vous reçois au cabinet ou me rend à votre domicile, en individuel ou en duo, pour un accompagnement personnalisé, bienveillant et sans jugement. Ici, <g>pas de régime ni d'interdits</g>, mais des conseils sur mesure, respectueux de votre rythme, de vos goûts et des recommandations officielles, afin d'instaurer des <g>changements durables et sans frustration</g>.</p>
             <p>
-                <g>Mon objectif est simple</g> : vous aider à trouver votre propre équilibre, en prenant soin à la fois de l’assiette et de l’esprit.
+                <g>Mon objectif est simple</g> : vous aider à trouver votre propre équilibre, en prenant soin à la fois de l'assiette et de l'esprit.
             </p>
         </div>
         <h2>Le cabinet</h2>
@@ -60,7 +56,7 @@
                 <div class="address">
                     <p>Je vous accueille au cabinet du <g>lundi au mercredi, de 9h à 19h</g>
                     </p>
-                    <h3>5 route de Beaufay <br>72460<br> Savigné l’Evêque</h3>
+                    <h3>5 route de Beaufay <br>72460<br> Savigné l'Evêque</h3>
 
                 </div>
                 <div class="map">

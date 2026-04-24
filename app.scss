@@ -11,14 +11,34 @@ $color-orange: #cf7c66;
 
 $shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
-* {
-    box-sizing: border-box;
-    margin: 0px;
+$color-card: #f9f9f9;
+$color-text-light: #555555;
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background-color: $color-orange;
+    color: $color-white;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 body {
     background-color: $color-Beige;
+    font-family: $montserrat;
 }
 
 h2 {
@@ -48,6 +68,7 @@ g {
 
 a {
     color: $color-black;
+    transition: color 0.3s ease;
 }
 
 .inline {
@@ -224,6 +245,7 @@ header {
     text-align: center;
     margin: 0px 18em;
     gap: 5em;
+    padding-top: 3em;
     padding-bottom: 10em;
     font-family: $montserrat;
 
@@ -231,7 +253,7 @@ header {
         display: flex;
         margin: 3em;
         padding: 2em;
-        background-color: #f9f9f9;
+        background-color: $color-card;
         border-bottom: solid 2px $color-orange;
         border-radius: 15px;
         box-shadow: $shadow;
@@ -275,7 +297,6 @@ header {
     .intro {
         display: flex;
         flex-direction: column;
-        align-items: justify;
         gap: 2em;
         margin: 1em 3em;
         padding: 3em;
@@ -296,7 +317,7 @@ header {
         flex-direction: column;
         margin: 1em 3em;
         padding: 2em;
-        background-color: #f9f9f9;
+        background-color: $color-card;
         border-bottom: solid 2px $color-orange;
         border-radius: 15px;
         box-shadow: $shadow;
@@ -339,6 +360,10 @@ header {
         gap: 2em;
         margin: 1em 3em;
 
+        .inline {
+            gap: 0.8em;
+        }
+
         i {
             font-size: 2em;
             color: $color-orange;
@@ -375,7 +400,7 @@ header {
         padding: 2em;
         text-align: justify;
         height: 100%;
-        background-color: #f9f9f9;
+        background-color: $color-card;
         border-bottom: solid 2px $color-orange;
         border-right: solid 2px $color-orange;
         border-radius: 15px;
@@ -412,7 +437,7 @@ header {
                 padding: 20px;
                 text-align: center;
                 height: 100%;
-                background-color: #f9f9f9;
+                background-color: $color-card;
                 border-bottom: solid 2px $color-orange;
                 border-radius: 15px;
                 box-shadow: $shadow;
@@ -429,7 +454,7 @@ header {
 
                 p {
                     margin: 1em 0;
-                    color: #555;
+                    color: $color-text-light;
                     font-size: 1em;
                 }
             }
@@ -484,7 +509,7 @@ header {
                 text-align: center;
                 height: 300px;
                 width: 300px;
-                background-color: #f9f9f9;
+                background-color: $color-card;
                 border-bottom: solid 2px $color-orange;
                 border-radius: 15px;
                 box-shadow: $shadow;
@@ -497,7 +522,7 @@ header {
 
                 p {
                     margin: 1em 0;
-                    color: #555;
+                    color: $color-text-light;
                     font-size: 1.5em;
                     text-align: center;
                 }
@@ -512,7 +537,7 @@ header {
     img {
         width: 50%;
         padding: 20px;
-        background-color: #f9f9f9;
+        background-color: $color-card;
         border-bottom: solid 2px $color-orange;
         border-radius: 15px;
         box-shadow: $shadow;
