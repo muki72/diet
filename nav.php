@@ -9,7 +9,7 @@
         <span></span>
     </label>
     <div class="actions">
-        <a href="index">Accueil</a>
+        <a href="accueil">Accueil</a>
         <a href="consultations">Consultations</a>
         <a href="tarifs">Tarifs</a>
         <a href="inbody">Balance Inbody 120</a>
