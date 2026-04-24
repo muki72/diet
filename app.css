@@ -402,6 +402,289 @@ header h1 {
   scale: 1.1;
 }
 
+.hamburger {
+  display: none;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (min-width: 1441px) {
+  .container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 1440px) {
+  .container {
+    margin: 0 8em;
+  }
+}
+@media (max-width: 1023px) {
+  h2 {
+    font-size: 2.2em;
+  }
+  h3 {
+    font-size: 1.6em;
+  }
+  nav .logo {
+    width: 65px;
+    height: 65px;
+    margin-left: 20px;
+  }
+  nav .actions {
+    font-size: 1.2em;
+    gap: 1em;
+    margin-right: 1.5em;
+    margin-top: 20px;
+  }
+  button {
+    width: 250px;
+  }
+  .container {
+    margin: 0 2em;
+    gap: 3em;
+  }
+  .container .profil {
+    flex-direction: column;
+    align-items: center;
+    margin: 1em 0;
+  }
+  .container .profil img {
+    width: 100%;
+    height: auto;
+  }
+  .container .intro {
+    margin: 0;
+    padding: 1.5em;
+  }
+  .container .place .inline {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  .container .place .inline .address {
+    max-width: 100%;
+  }
+  .container .place .inline iframe {
+    width: 100%;
+    height: 300px;
+  }
+  .container .contact .infos {
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+  }
+  .tarifs {
+    flex-direction: column;
+  }
+  .tarifs .table-container .table {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .inb .table-container .table {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .inb .table-container .table .banner {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+  }
+  .inb img {
+    width: 70%;
+  }
+  .rgpd ul {
+    margin-right: 1em;
+  }
+  .rgpd ul li {
+    grid-template-columns: 200px 1fr;
+  }
+}
+@media (max-width: 599px) {
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+    margin-right: 1.5em;
+    padding: 5px;
+  }
+  .hamburger span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #cf7c66;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+  }
+  .nav-toggle:checked ~ .actions {
+    display: flex !important;
+  }
+  .nav-toggle:checked ~ .hamburger span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+  .nav-toggle:checked ~ .hamburger span:nth-child(2) {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  .nav-toggle:checked ~ .hamburger span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+  nav .logo {
+    width: 55px;
+    height: 55px;
+    margin-left: 12px;
+  }
+  nav .actions {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    gap: 0;
+    margin: 0;
+    padding: 0.5em 0;
+    background-color: #FFFFFF;
+    border-top: 1px solid rgba(207, 124, 102, 0.3);
+  }
+  nav .actions a {
+    padding: 0.9em 1em;
+    border-bottom: 1px solid rgba(207, 124, 102, 0.1);
+  }
+  nav .actions a:last-child {
+    border-bottom: none;
+  }
+  h2 {
+    font-size: 1.8em;
+  }
+  h3 {
+    font-size: 1.3em;
+  }
+  p {
+    font-size: 1em;
+  }
+  header h1 {
+    font-size: 1.3em;
+    height: auto;
+    padding: 1em 1.5em;
+    text-align: center;
+    line-height: 1.4;
+  }
+  button {
+    width: 100%;
+    max-width: 280px;
+    font-size: 1em;
+  }
+  .container {
+    margin: 0 0.8em;
+    gap: 2em;
+    padding-bottom: 3em;
+  }
+  .container .profil {
+    flex-direction: column;
+    align-items: center;
+    margin: 0.5em 0;
+    padding: 1em;
+  }
+  .container .profil img {
+    width: 100%;
+    height: auto;
+  }
+  .container .profil .infos {
+    gap: 1em;
+    margin-top: 1em;
+    width: 100%;
+  }
+  .container .intro {
+    margin: 0;
+    padding: 1em;
+    gap: 1.5em;
+  }
+  .container .review {
+    margin: 0;
+  }
+  .container .place {
+    margin: 0;
+    padding: 1em;
+  }
+  .container .place .inline {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .container .place .inline .address {
+    max-width: 100%;
+    gap: 1em;
+    text-align: center;
+  }
+  .container .place .inline iframe {
+    width: 100%;
+    height: 220px;
+  }
+  .container .contact .infos {
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+  }
+  .container .contact p {
+    overflow-wrap: break-word;
+    word-break: break-all;
+    max-width: calc(100vw - 4em);
+  }
+  .consult .column:hover {
+    scale: 1;
+  }
+  .tarifs {
+    flex-direction: column;
+    padding-bottom: 3em;
+  }
+  .tarifs .table-container .table {
+    grid-template-columns: 1fr;
+  }
+  .tarifs .table-container .table .banner:hover {
+    scale: 1;
+  }
+  .inb .table-container .table {
+    grid-template-columns: 1fr;
+  }
+  .inb .table-container .table .banner {
+    width: 100%;
+    height: auto;
+    min-height: 160px;
+  }
+  .inb img {
+    width: 100%;
+  }
+  .inb img:hover {
+    scale: 1;
+  }
+  .rgpd {
+    padding: 0 1em 2em;
+  }
+  .rgpd ul {
+    margin-right: 0;
+  }
+  .rgpd ul li {
+    grid-template-columns: 1fr;
+  }
+  .rgpd ul li::before {
+    text-align: left;
+    padding-right: 0;
+    padding-bottom: 0.3em;
+  }
+  footer {
+    padding: 1.5em 1em;
+  }
+  footer h2 {
+    font-size: 1.5em;
+  }
+  footer p {
+    font-size: 0.9em;
+  }
+}
 .rgpd {
   display: flex;
   align-items: center;

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sass app.scss app.css)",
+      "Bash(where sass *)",
+      "Bash(where dart-sass *)",
+      "Bash(npx sass *)"
+    ]
+  }
+}

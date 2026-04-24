@@ -1,0 +1,392 @@
+// ============================================================
+// _responsive.scss
+//
+// Breakpoints :
+//   XL : ≥ 1441px        grands écrans, moniteurs larges
+//   L  : 1024px–1440px   laptop, desktop standard  ← styles de base
+//   M  : 600px–1023px    tablette
+//   S  : ≤ 599px         smartphone
+// ============================================================
+
+// Hamburger caché par défaut sur desktop
+.hamburger {
+    display: none;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+
+// ─── XL : grands écrans ─────────────────────────────────────────────────────
+@media (min-width: 1441px) {
+    .container {
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+// ─── L : laptop / desktop standard ──────────────────────────────────────────
+@media (max-width: 1440px) {
+    .container {
+        margin: 0 8em;
+    }
+}
+
+
+// ─── M : tablette ───────────────────────────────────────────────────────────
+@media (max-width: 1023px) {
+
+    h2 {
+        font-size: 2.2em;
+    }
+
+    h3 {
+        font-size: 1.6em;
+    }
+
+    nav {
+        .logo {
+            width: 65px;
+            height: 65px;
+            margin-left: 20px;
+        }
+
+        .actions {
+            font-size: 1.2em;
+            gap: 1em;
+            margin-right: 1.5em;
+            margin-top: 20px;
+        }
+    }
+
+    button {
+        width: 250px;
+    }
+
+    .container {
+        margin: 0 2em;
+        gap: 3em;
+
+        .profil {
+            flex-direction: column;
+            align-items: center;
+            margin: 1em 0;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .intro {
+            margin: 0;
+            padding: 1.5em;
+        }
+
+        .place {
+            .inline {
+                flex-direction: column;
+                gap: 1.5em;
+
+                .address {
+                    max-width: 100%;
+                }
+
+                iframe {
+                    width: 100%;
+                    height: 300px;
+                }
+            }
+        }
+
+        .contact {
+            .infos {
+                flex-direction: column;
+                gap: 1.5em;
+                align-items: center;
+            }
+        }
+    }
+
+    .tarifs {
+        flex-direction: column;
+
+        .table-container .table {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .inb {
+        .table-container .table {
+            grid-template-columns: repeat(2, 1fr);
+
+            .banner {
+                width: 100%;
+                height: auto;
+                min-height: 200px;
+            }
+        }
+
+        img {
+            width: 70%;
+        }
+    }
+
+    .rgpd ul {
+        margin-right: 1em;
+
+        li {
+            grid-template-columns: 200px 1fr;
+        }
+    }
+}
+
+
+// ─── S : smartphone ─────────────────────────────────────────────────────────
+@media (max-width: 599px) {
+
+    // ── Hamburger menu (CSS uniquement, technique checkbox) ──────────────────
+
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 6px;
+        cursor: pointer;
+        margin-right: 1.5em;
+        padding: 5px;
+
+        span {
+            display: block;
+            width: 28px;
+            height: 3px;
+            background-color: $color-orange;
+            border-radius: 3px;
+            transition: all 0.3s ease;
+        }
+    }
+
+    // Ouvrir le menu quand la checkbox est cochée
+    .nav-toggle:checked~.actions {
+        display: flex !important;
+    }
+
+    // Animation hamburger → croix
+    .nav-toggle:checked~.hamburger span:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .nav-toggle:checked~.hamburger span:nth-child(2) {
+        opacity: 0;
+        transform: scaleX(0);
+    }
+
+    .nav-toggle:checked~.hamburger span:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+
+    // ── Navigation ───────────────────────────────────────────────────────────
+    nav {
+        flex-wrap: wrap;
+
+        .logo {
+            width: 55px;
+            height: 55px;
+            margin-left: 12px;
+        }
+
+        .actions {
+            display: none; // caché par défaut, ouvert via checkbox
+            flex-direction: column;
+            width: 100%;
+            text-align: center;
+            font-size: 1.1em;
+            gap: 0;
+            margin: 0;
+            padding: 0.5em 0;
+            background-color: $color-white;
+            border-top: 1px solid rgba($color-orange, 0.3);
+
+            a {
+                padding: 0.9em 1em;
+                border-bottom: 1px solid rgba($color-orange, 0.1);
+
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+
+    // ── Typographie ──────────────────────────────────────────────────────────
+    h2 {
+        font-size: 1.8em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    header h1 {
+        font-size: 1.3em;
+        height: auto;
+        padding: 1em 1.5em;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    button {
+        width: 100%;
+        max-width: 280px;
+        font-size: 1em;
+    }
+
+    // ── Container ────────────────────────────────────────────────────────────
+    .container {
+        margin: 0 0.8em;
+        gap: 2em;
+        padding-bottom: 3em;
+
+        .profil {
+            flex-direction: column;
+            align-items: center;
+            margin: 0.5em 0;
+            padding: 1em;
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .infos {
+                gap: 1em;
+                margin-top: 1em;
+                width: 100%;
+            }
+        }
+
+        .intro {
+            margin: 0;
+            padding: 1em;
+            gap: 1.5em;
+        }
+
+        .review {
+            margin: 0;
+        }
+
+        .place {
+            margin: 0;
+            padding: 1em;
+
+            .inline {
+                flex-direction: column;
+                gap: 1em;
+
+                .address {
+                    max-width: 100%;
+                    gap: 1em;
+                    text-align: center;
+                }
+
+                iframe {
+                    width: 100%;
+                    height: 220px;
+                }
+            }
+        }
+
+        .contact {
+            .infos {
+                flex-direction: column;
+                gap: 1.5em;
+                align-items: center;
+            }
+
+            p {
+                overflow-wrap: break-word;
+                word-break: break-all;
+                max-width: calc(100vw - 4em);
+            }
+        }
+    }
+
+    // ── Consultations ─────────────────────────────────────────────────────────
+    .consult .column:hover {
+        scale: 1; // désactiver l'agrandissement sur écran tactile
+    }
+
+    // ── Tarifs ───────────────────────────────────────────────────────────────
+    .tarifs {
+        flex-direction: column;
+        padding-bottom: 3em;
+
+        .table-container .table {
+            grid-template-columns: 1fr;
+
+            .banner:hover {
+                scale: 1;
+            }
+        }
+    }
+
+    // ── InBody ───────────────────────────────────────────────────────────────
+    .inb {
+        .table-container .table {
+            grid-template-columns: 1fr;
+
+            .banner {
+                width: 100%;
+                height: auto;
+                min-height: 160px;
+            }
+        }
+
+        img {
+            width: 100%;
+        }
+
+        img:hover {
+            scale: 1;
+        }
+    }
+
+    // ── RGPD ─────────────────────────────────────────────────────────────────
+    .rgpd {
+        padding: 0 1em 2em;
+
+        ul {
+            margin-right: 0;
+
+            li {
+                grid-template-columns: 1fr;
+
+                &::before {
+                    text-align: left;
+                    padding-right: 0;
+                    padding-bottom: 0.3em;
+                }
+            }
+        }
+    }
+
+    // ── Footer ───────────────────────────────────────────────────────────────
+    footer {
+        padding: 1.5em 1em;
+
+        h2 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 0.9em;
+        }
+    }
+}
