@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site dédié au suivi nutritionnel, bilans InBody et consultations diététiques. Prenez soin de votre santé.">
+    <meta name="description" content="Consultez les tarifs des consultations diététiques et bilans InBody proposés par Lisa Mercier, diététicienne nutritionniste.">
+
+    <meta property="og:title" content="Tarifs - Lisa Mercier">
+    <meta property="og:description" content="Découvrez les tarifs des consultations diététiques individuelles et bilans InBody de Lisa Mercier.">
+    <meta property="og:image" content="https://mercier-lisa.xo.je/assets/logo.png">
+    <meta property="og:url" content="https://mercier-lisa.xo.je/tarifs">
     <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="app.css">
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
