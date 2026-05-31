@@ -198,7 +198,7 @@ footer {
     align-items: center;
     flex-direction: column;
     border-top: solid 2px $color-orange;
-    gap: 1em;
+    gap: 0.5em;
     padding: 2em;
     background-color: $color-orange;
     color: $color-Beige;
@@ -439,7 +439,6 @@ header {
     h2 {
         text-align: center;
         padding: 1em;
-        padding-top: 2em;
     }
 
     .table-container {
