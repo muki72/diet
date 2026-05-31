@@ -170,7 +170,7 @@ nav {
         margin-top: 25px;
         margin-right: 3em;
         font-family: $montserrat;
-        font-size: 1.8em;
+        font-size: 1.3em;
         gap: 2em;
         width: 90%;
         height: fit-content;
@@ -238,7 +238,7 @@ header {
         font-weight: 100;
         background-color: rgba($color-orange, 0.8);
         width: 100%;
-        height: 150px;
+        height: 120px;
     }
 }
 
@@ -247,7 +247,7 @@ header {
     flex-direction: column;
     text-align: center;
     margin: 0px 18em;
-    gap: 5em;
+    gap: 3.5em;
     padding-top: 3em;
     padding-bottom: 10em;
     font-family: $montserrat;
@@ -262,11 +262,11 @@ header {
         box-shadow: $shadow;
 
 
-        img {
+        >img {
             width: 640px;
             height: 320px;
             border-radius: 15px;
-
+            transform: scaleX(-1);
         }
 
         .infos {
@@ -274,16 +274,16 @@ header {
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            gap: 2em;
+            gap: 1.8em;
             width: 100%;
 
             h4 {
-                font-size: 1.5em;
+                font-size: 1.7em;
                 font-weight: 500;
             }
 
             p {
-                font-size: 1em;
+                font-size: 1.2em;
                 font-weight: 400;
             }
         }
@@ -339,7 +339,7 @@ header {
             }
 
             h3 {
-                font-size: 1.5em;
+                font-size: 1.2em;
                 font-weight: 400;
             }
 
@@ -361,7 +361,7 @@ header {
         flex-direction: column;
         align-items: center;
         gap: 2em;
-        margin: 1em 3em;
+        margin: 1em 2em;
 
         .inline {
             gap: 0.8em;
@@ -373,12 +373,17 @@ header {
         }
 
         .infos {
-            gap: 3em;
+            gap: 2.8em;
 
         }
 
         a {
             text-decoration: none;
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1.5em;
         }
 
         a:hover {
@@ -393,14 +398,16 @@ header {
 
 //consultations
 .consult {
+
+
     h2 {
         text-align: center;
-        padding: 1em;
+        padding: 0.8em;
     }
 
     .column {
         gap: 2em;
-        padding: 2em;
+        padding: 3em;
         text-align: justify;
         height: 100%;
         background-color: $color-card;
@@ -409,10 +416,14 @@ header {
         border-radius: 15px;
         box-shadow: $shadow;
         transition: all 0.5s ease-out;
+
+        h3 {
+            font-size: 1.8em;
+        }
     }
 
     .column:hover {
-        scale: 1.1;
+        scale: 1.03;
     }
 }
 
@@ -428,6 +439,7 @@ header {
     h2 {
         text-align: center;
         padding: 1em;
+        padding-top: 2em;
     }
 
     .table-container {
@@ -459,18 +471,19 @@ header {
                     margin: 1em 0;
                     color: $color-text-light;
                     font-size: 1em;
+                    text-align: center;
                 }
             }
 
             .banner:hover {
-                scale: 1.08;
+                scale: 1.03;
             }
         }
     }
 
     .column {
         gap: 1em;
-        padding: 3em;
+        padding: 2em;
         text-align: center;
         height: 100%;
 
@@ -487,10 +500,11 @@ header {
 .inb {
     padding-bottom: 5em;
     align-items: center;
+    gap: 5em;
 
     h2 {
         text-align: center;
-        padding: 1em;
+        padding-top: 2em;
 
     }
 
@@ -532,7 +546,7 @@ header {
             }
 
             .banner:hover {
-                scale: 1.01;
+                scale: 1.03;
             }
         }
     }
@@ -549,7 +563,7 @@ header {
     }
 
     img:hover {
-        scale: 1.1;
+        scale: 1.03;
     }
 }
 

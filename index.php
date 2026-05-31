@@ -54,9 +54,10 @@
         <div class="place">
             <div class="inline">
                 <div class="address">
-                    <p>Je vous accueille au cabinet du <g>lundi au mercredi, de 9h à 19h</g>
+                    <p>Je vous accueille au cabinet du <br>
+                        <g>lundi au mercredi, de 9h à 19h</g>
                     </p>
-                    <h3>5 route de Beaufay <br>72460<br> Savigné l'Evêque</h3>
+                    <h3>5 route de Beaufay <br> 72460 Savigné l'Evêque</h3>
 
                 </div>
                 <div class="map">
@@ -82,7 +83,7 @@
                 </div>
                 <div class="inline">
                     <i class="fa-solid fa-envelope"></i>
-                    <p>contact@lisamercierdieteticienne.fr</p>
+                    <p>contact@lisamercier-dieteticienne.fr</p>
                 </div>
                 <div class="inline">
                     <i class="fa-brands fa-facebook"></i>
