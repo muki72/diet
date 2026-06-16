@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="550" height="550" viewBox="0 0 550 550">
+  <g fill="#cf7c66" fill-opacity="0.8">
+    <!-- Gros points (r=5) -->
+    <circle cx="70"  cy="90"  r="5"/>
+    <circle cx="480" cy="440" r="5"/>
+    <!-- Points intermédiaires (r=3.5) -->
+    <circle cx="280" cy="60"  r="3.5"/>
+    <circle cx="500" cy="270" r="3.5"/>
+    <!-- Petits points (r=2.5) -->
+    <circle cx="250" cy="200" r="2.5"/>
+    <circle cx="60"  cy="420" r="2.5"/>
+  </g>
+</svg>

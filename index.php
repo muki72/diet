@@ -40,7 +40,7 @@
 
             </div>
         </div>
-        <div class="intro">
+        <div class="intro bg-splash">
             <h2>MON APPROCHE</h2>
             <g></g>
             <p>Passionnée par l'accompagnement humain et la nutrition, je suis <g>Diététicienne Nutritionniste</g>, diplômée d'un BTS Économie Sociale et Familiale, puis d'un BTS Diététique. Ce double parcours me permet d'allier <g>écoute</g>, <g>compréhension</g> des besoins et <g>conseils</g> alimentaires adaptés.</p>

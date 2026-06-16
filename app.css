@@ -27,6 +27,9 @@ img {
 
 body {
   background-color: #f8f2ee;
+  background-image: url("assets/lisa-dots.svg"), url("assets/lisa-dots.svg"), url("assets/lisa-dots.svg");
+  background-size: 550px 550px, 420px 420px, 680px 680px;
+  background-position: 0 0, 130px 90px, 60px 300px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -72,6 +75,32 @@ a {
   align-items: center;
 }
 
+.bg-splash {
+  position: relative;
+  background-image: url("assets/lisa-splash.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  padding: 3em;
+}
+.bg-splash::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  z-index: 0;
+}
+.bg-splash > * {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-splash--contain {
+  background-size: 100% 100%;
+  text-align: justify;
+}
+
 button {
   display: flex;
   align-items: center;
@@ -90,7 +119,7 @@ button {
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  transition: all 0.3s ease;
+  transition: all 0.45s ease;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 button:hover {
@@ -120,7 +149,7 @@ nav .logo {
   width: 80px;
   height: 80px;
   margin-left: 50px;
-  transition: all 0.3s ease-out;
+  transition: all 0.45s ease;
 }
 nav img:hover {
   -webkit-text-decoration: underline 2px #cf7c66;
@@ -144,7 +173,7 @@ nav .actions {
   height: fit-content;
 }
 nav .actions a {
-  transition: all 0.3s ease-out;
+  transition: all 0.45s ease;
 }
 nav .actions a:hover {
   -webkit-text-decoration: underline 2px #cf7c66;
@@ -329,7 +358,7 @@ header h1 {
   border-right: solid 2px #cf7c66;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s ease-out;
+  transition: all 0.45s ease;
 }
 .consult .column h3 {
   font-size: 1.8em;
@@ -362,7 +391,7 @@ header h1 {
   border-bottom: solid 2px #cf7c66;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: all 0.5s ease;
+  transition: all 0.45s ease;
 }
 .tarifs .table-container .table .banner h3 {
   font-size: 1.5em;
@@ -419,6 +448,7 @@ header h1 {
   border-bottom: solid 2px #cf7c66;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.45s ease;
 }
 .inb .table-container .table .banner h3 {
   font-size: 2em;
@@ -432,15 +462,41 @@ header h1 {
 .inb .table-container .table .banner:hover {
   scale: 1.03;
 }
-.inb img {
+.inb .intro-inb {
+  gap: 3em;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.inb .intro-inb p {
+  flex: 0 1 30em;
+  text-align: center;
+}
+.inb .intro-inb .balance-img {
+  width: auto;
+  max-height: 480px;
+  flex-shrink: 0;
+}
+.inb .howto-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  width: auto;
+  margin-left: -18em;
+  margin-right: -18em;
+  background-color: #FFFFFF;
+  padding: 3em 18em;
+}
+.inb .schema-img {
   width: 50%;
   padding: 20px;
   background-color: #f9f9f9;
   border-bottom: solid 2px #cf7c66;
   border-radius: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.45s ease;
 }
-.inb img:hover {
+.inb .schema-img:hover {
   scale: 1.03;
 }
 
@@ -462,6 +518,12 @@ header h1 {
 @media (max-width: 1440px) {
   .container {
     margin: 0 8em;
+  }
+  .howto-text {
+    padding-left: 8em;
+    padding-right: 8em;
+    margin-left: -8em;
+    margin-right: -8em;
   }
 }
 @media (max-width: 1023px) {
@@ -532,8 +594,20 @@ header h1 {
     height: auto;
     min-height: 200px;
   }
-  .inb img {
+  .inb .schema-img {
     width: 70%;
+  }
+  .inb .intro-inb {
+    flex-direction: column;
+  }
+  .inb .intro-inb .balance-img {
+    max-height: 300px;
+  }
+  .inb .howto-text {
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: -2em;
+    margin-right: -2em;
   }
   .rgpd ul {
     margin-right: 1em;
@@ -697,11 +771,20 @@ header h1 {
     height: auto;
     min-height: 160px;
   }
-  .inb img {
+  .inb .schema-img {
     width: 100%;
   }
-  .inb img:hover {
+  .inb .schema-img:hover {
     scale: 1;
+  }
+  .inb .intro-inb .balance-img {
+    max-height: 240px;
+  }
+  .inb .howto-text {
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    margin-left: -0.8em;
+    margin-right: -0.8em;
   }
   .rgpd {
     padding: 0 1em 2em;

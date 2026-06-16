@@ -10,6 +10,7 @@ $color-Beige: #f8f2ee;
 $color-orange: #cf7c66;
 
 $shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+$transition: all 0.45s ease;
 
 $color-card: #f9f9f9;
 $color-text-light: #555555;
@@ -38,6 +39,12 @@ img {
 
 body {
     background-color: $color-Beige;
+    background-image:
+        url('assets/lisa-dots.svg'),
+        url('assets/lisa-dots.svg'),
+        url('assets/lisa-dots.svg');
+    background-size: 550px 550px, 420px 420px, 680px 680px;
+    background-position: 0 0, 130px 90px, 60px 300px;
     font-family: $montserrat;
 }
 
@@ -84,7 +91,33 @@ a {
     align-items: center;
 }
 
+.bg-splash {
+    position: relative;
+    background-image: url('assets/lisa-splash.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 3em;
 
+    &::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        z-index: 0;
+    }
+
+    >* {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+.bg-splash--contain {
+    background-size: 100% 100%;
+    text-align: justify;
+}
 
 button {
     display: flex;
@@ -104,7 +137,7 @@ button {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    transition: all 0.3s ease;
+    transition: $transition;
     box-shadow: $shadow;
 
     &:hover {
@@ -144,7 +177,7 @@ nav {
         width: 80px;
         height: 80px;
         margin-left: 50px;
-        transition: all 0.3s ease-out;
+        transition: $transition;
 
 
 
@@ -177,7 +210,7 @@ nav {
 
 
         a {
-            transition: all 0.3s ease-out;
+            transition: $transition;
 
         }
 
@@ -415,7 +448,7 @@ header {
         border-right: solid 2px $color-orange;
         border-radius: 15px;
         box-shadow: $shadow;
-        transition: all 0.5s ease-out;
+        transition: $transition;
 
         h3 {
             font-size: 1.8em;
@@ -455,7 +488,7 @@ header {
                 border-bottom: solid 2px $color-orange;
                 border-radius: 15px;
                 box-shadow: $shadow;
-                transition: all 0.5s ease;
+                transition: $transition;
 
 
                 h3 {
@@ -529,6 +562,7 @@ header {
                 border-bottom: solid 2px $color-orange;
                 border-radius: 15px;
                 box-shadow: $shadow;
+                transition: $transition;
 
                 h3 {
                     font-size: 2em;
@@ -550,18 +584,47 @@ header {
         }
     }
 
-    img {
+    .intro-inb {
+        gap: 3em;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        p {
+            flex: 0 1 30em;
+            text-align: center;
+        }
+
+        .balance-img {
+            width: auto;
+            max-height: 480px;
+            flex-shrink: 0;
+        }
+    }
+
+    .howto-text {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: auto;
+        margin-left: -18em;
+        margin-right: -18em;
+        background-color: $color-white;
+        padding: 3em 18em;
+    }
+
+    .schema-img {
         width: 50%;
         padding: 20px;
         background-color: $color-card;
         border-bottom: solid 2px $color-orange;
         border-radius: 15px;
         box-shadow: $shadow;
-
+        transition: $transition;
 
     }
 
-    img:hover {
+    .schema-img:hover {
         scale: 1.03;
     }
 }

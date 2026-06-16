@@ -47,7 +47,7 @@
         </div>
         <a href="https://www.doctolib.fr/dieteticien/savigne-l-eveque/lisa-mercier" target="_blank"><button>Reserver sur <img class="doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib" /></button></a>
         <h2>Qui peut en bénéficier ?</h2>
-        <div class="column">
+        <div class="column bg-splash bg-splash--contain">
             <p>
                 <g>Chacun peut tirer profit d’un suivi diététique, car l'alimentation joue un rôle clé dans <br> notre santé à chaque étape de la vie.</g>
             </p>

@@ -33,6 +33,13 @@
     .container {
         margin: 0 8em;
     }
+
+    .howto-text {
+        padding-left: 8em;
+        padding-right: 8em;
+        margin-left: -8em;
+        margin-right: -8em;
+    }
 }
 
 
@@ -130,8 +137,23 @@
             }
         }
 
-        img {
+        .schema-img {
             width: 70%;
+        }
+
+        .intro-inb {
+            flex-direction: column;
+
+            .balance-img {
+                max-height: 300px;
+            }
+        }
+
+        .howto-text {
+            padding-left: 2em;
+            padding-right: 2em;
+            margin-left: -2em;
+            margin-right: -2em;
         }
     }
 
@@ -349,12 +371,23 @@
             }
         }
 
-        img {
+        .schema-img {
             width: 100%;
         }
 
-        img:hover {
+        .schema-img:hover {
             scale: 1;
+        }
+
+        .intro-inb .balance-img {
+            max-height: 240px;
+        }
+
+        .howto-text {
+            padding-left: 0.8em;
+            padding-right: 0.8em;
+            margin-left: -0.8em;
+            margin-right: -0.8em;
         }
     }
 
