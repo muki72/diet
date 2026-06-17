@@ -47,13 +47,7 @@
         <p>Profession réglementée par le Code de la santé publique – Article L.4371-1. </p>
         <h2> POLITIQUE DE CONFIDENTIALITÉ & GESTION DES DONNÉES PERSONNELLES :
         </h2>
-        <h3>Collecte des données personnelles :</h3>
-        <p>Les données collectées via le formulaire de contact (nom, prénom, adresse e-mail, téléphone) sont strictement utilisées pour répondre aux demandes des utilisateurs et ne sont en aucun cas cédées ou revendues à des tiers. </p>
-        <h3>Responsable du traitement </h3>
-        <p>Mme MERCIER Lisa, en tant que micro-entrepreneuse, est responsable du traitement des données personnelles collectées via ce site. </p>
-        <h3>Droit d’accès, de rectification et de suppression :</h3>
-        <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez d’un droit d’accès, de rectification, de limitation, d’opposition et de suppression des données vous concernant. Pour exercer ce droit, vous pouvez contacter : contact@lisamercier-dieteticienne.fr
-        </p>
+        <p>Ce site ne collecte aucune donnée personnelle via un formulaire. Certaines fonctionnalités tierces (Google Maps, avis Google, prise de rendez-vous Doctolib) sont susceptibles de déposer des cookies ou de traiter votre adresse IP ; ces traitements relèvent de leurs propres politiques de confidentialité</p>
     </div>
     <?php
     include("footer.php");
