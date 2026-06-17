@@ -26,6 +26,7 @@ img {
 }
 
 body {
+  container-type: inline-size;
   background-color: #f8f2ee;
   background-image: url("assets/lisa-dots.svg"), url("assets/lisa-dots.svg"), url("assets/lisa-dots.svg");
   background-size: 550px 550px, 420px 420px, 680px 680px;
@@ -214,8 +215,8 @@ header h1 {
   text-align: center;
   margin: 0px 18em;
   gap: 3.5em;
-  padding-top: 3em;
-  padding-bottom: 10em;
+  padding-top: 10em;
+  padding-bottom: 20em;
   font-family: "Montserrat", sans-serif;
 }
 .container .profil {
@@ -428,10 +429,10 @@ header h1 {
 .inb .table-container .table .banner {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 20px;
   text-align: center;
-  height: 300px;
+  min-height: 300px;
   width: 300px;
   background-color: #f9f9f9;
   border-bottom: solid 2px #cf7c66;
@@ -441,6 +442,11 @@ header h1 {
 }
 .inb .table-container .table .banner h3 {
   font-size: 2em;
+  line-height: 1.2;
+  height: 2.4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .inb .table-container .table .banner p {
   margin: 1em 0;
@@ -471,8 +477,8 @@ header h1 {
   flex-direction: column;
   gap: 1em;
   width: auto;
-  margin-left: -18em;
-  margin-right: -18em;
+  margin-left: calc(50% - 50cqw);
+  margin-right: calc(50% - 50cqw);
   background-color: #FFFFFF;
   padding: 3em 18em;
 }
@@ -511,8 +517,6 @@ header h1 {
   .howto-text {
     padding-left: 8em;
     padding-right: 8em;
-    margin-left: -8em;
-    margin-right: -8em;
   }
 }
 @media (max-width: 1023px) {
@@ -603,8 +607,6 @@ header h1 {
   .inb .howto-text {
     padding-left: 2em;
     padding-right: 2em;
-    margin-left: -2em;
-    margin-right: -2em;
   }
   .rgpd ul {
     margin-right: 1em;
@@ -780,8 +782,6 @@ header h1 {
   .inb .howto-text {
     padding-left: 0.8em;
     padding-right: 0.8em;
-    margin-left: -0.8em;
-    margin-right: -0.8em;
   }
   .rgpd {
     padding: 0 1em 2em;

@@ -38,6 +38,7 @@ img {
 }
 
 body {
+    container-type: inline-size;
     background-color: $color-Beige;
     background-image:
         url('assets/lisa-dots.svg'),
@@ -268,8 +269,8 @@ header {
     text-align: center;
     margin: 0px 18em;
     gap: 3.5em;
-    padding-top: 3em;
-    padding-bottom: 10em;
+    padding-top: 10em;
+    padding-bottom: 20em;
     font-family: $montserrat;
 
     .profil {
@@ -540,10 +541,10 @@ header {
             .banner {
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
+                justify-content: flex-start;
                 padding: 20px;
                 text-align: center;
-                height: 300px;
+                min-height: 300px;
                 width: 300px;
                 background-color: $color-card;
                 border-bottom: solid 2px $color-orange;
@@ -553,8 +554,11 @@ header {
 
                 h3 {
                     font-size: 2em;
-
-
+                    line-height: 1.2;
+                    height: 2.4em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
                 }
 
                 p {
@@ -594,8 +598,8 @@ header {
         flex-direction: column;
         gap: 1em;
         width: auto;
-        margin-left: -18em;
-        margin-right: -18em;
+        margin-left: calc(50% - 50cqw);
+        margin-right: calc(50% - 50cqw);
         background-color: $color-white;
         padding: 3em 18em;
     }
