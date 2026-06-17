@@ -54,6 +54,16 @@
         font-size: 1.6em;
     }
 
+    .bg-splash {
+        background-image: none;
+        background-color: $color-white;
+        color: $color-black;
+
+        &::before {
+            background-color: transparent;
+        }
+    }
+
     nav {
         .logo {
             width: 65px;
@@ -143,6 +153,10 @@
 
         .intro-inb {
             flex-direction: column;
+
+            p {
+                flex: none;
+            }
 
             .balance-img {
                 max-height: 300px;

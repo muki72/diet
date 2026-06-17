@@ -30,6 +30,7 @@
         <div class="inline intro-inb">
             <p class="bg-splash bg-splash--contain">Pour un accompagnement personnalisé et <g>complet</g>, je dispose de la balance professionnelle Inbody 120, équipée d’un <g>impédancemètre haute précision</g>. Elle offre une vision plus complète <g>que celle du simple poids</g>.</p>
             <img class="balance-img" src="assets/balance.png" alt="Balance professionnelle InBody 120">
+
         </div>
 
         <h2>Comment ça marche ?</h2>
