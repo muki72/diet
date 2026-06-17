@@ -36,16 +36,15 @@
                 <h2>Lisa MERCIER</h2>
                 <h4>Diététicienne - Nutritionniste</h4>
                 <p>En cabinet à Savigné l'Évêque et à domicile</p>
-                <a href="https://www.doctolib.fr/dieteticien/savigne-l-eveque/lisa-mercier" target="_blank"><button>Reserver sur <img class="doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib" /></button></a>
+                <a href="https://www.doctolib.fr/dieteticien/savigne-l-eveque/lisa-mercier" target="_blank"><button>Réserver sur <img class="doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib" /></button></a>
 
             </div>
         </div>
         <div class="intro bg-splash">
             <h2>MON APPROCHE</h2>
-            <g></g>
             <p>Passionnée par l'accompagnement humain et la nutrition, je suis <g>Diététicienne Nutritionniste</g>, diplômée d'un BTS Économie Sociale et Familiale, puis d'un BTS Diététique. Ce double parcours me permet d'allier <g>écoute</g>, <g>compréhension</g> des besoins et <g>conseils</g> alimentaires adaptés.</p>
             <p>Formée à l'<g>alimentation en pleine conscience</g>, j'accompagne mes patients vers une relation plus <g>sereine</g> avec la nourriture, en se reconnectant aux sensations et aux besoins du corps.</p>
-            <p>Je vous reçois au cabinet ou me rend à votre domicile, en individuel ou en duo, pour un accompagnement personnalisé, bienveillant et sans jugement. Ici, <g>pas de régime ni d'interdits</g>, mais des conseils sur mesure, respectueux de votre rythme, de vos goûts et des recommandations officielles, afin d'instaurer des <g>changements durables et sans frustration</g>.</p>
+            <p>Je vous reçois au cabinet ou me rends à votre domicile, en individuel ou en duo, pour un accompagnement personnalisé, bienveillant et sans jugement. Ici, <g>pas de régime ni d'interdits</g>, mais des conseils sur mesure, respectueux de votre rythme, de vos goûts et des recommandations officielles, afin d'instaurer des <g>changements durables et sans frustration</g>.</p>
             <p>
                 <g>Mon objectif est simple</g> : vous aider à trouver votre propre équilibre, en prenant soin à la fois de l'assiette et de l'esprit.
             </p>

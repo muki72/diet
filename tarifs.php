@@ -45,7 +45,7 @@
                 </div>
             </div>
         </div>
-        <a href="https://www.doctolib.fr/dieteticien/savigne-l-eveque/lisa-mercier" target="_blank"><button>Reserver sur <img class="doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib" /></button></a>
+        <a href="https://www.doctolib.fr/dieteticien/savigne-l-eveque/lisa-mercier" target="_blank"><button>Réserver sur <img class="doctolib" src="https://www.doctolib.fr/external_button/doctolib-white-transparent.png" alt="Doctolib" /></button></a>
         <h2>Qui peut en bénéficier ?</h2>
         <div class="column bg-splash bg-splash--contain">
             <p>
@@ -53,7 +53,7 @@
             </p>
 
             <p>Entreprendre un suivi ne se limite pas à <g>la seule gestion du poids</g>, mais permet aussi de mieux <g>comprendre</g> ses habitudes alimentaires, d’<g>adapter</g> son alimentation à une pathologie (diabète, cholestérol, troubles digestifs…), d’<g>accompagner</g> une grossesse, de <g>préparer</g> ou <g>récupérer</g> d’une chirurgie, ou encore d’<g>optimiser</g> sa composition corporelle.</p>
-            <p>Enfant, adolescent, adulte ou senior, quelque soit votre histoire de vie, avec ou sans particularités pathologiques, <g>je serai ravie de vous accompagner</g> pour prendre soin de <g>votre santé</g> et améliorer vos habitudes de vie.</p>
+            <p>Enfant, adolescent, adulte ou senior, quel que soit votre histoire de vie, avec ou sans particularités pathologiques, <g>je serai ravie de vous accompagner</g> pour prendre soin de <g>votre santé</g> et améliorer vos habitudes de vie.</p>
             <p>
                 <g>Bon à savoir</g> : certaines mutuelles prennent en charge tout
                 ou partie des consultations.

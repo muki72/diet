@@ -58,10 +58,6 @@
         background-image: none;
         background-color: $color-white;
         color: $color-black;
-
-        &::before {
-            background-color: transparent;
-        }
     }
 
     nav {

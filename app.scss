@@ -99,19 +99,6 @@ a {
     background-repeat: no-repeat;
     border-radius: 15px;
     padding: 3em;
-
-    &::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        border-radius: inherit;
-        z-index: 0;
-    }
-
-    >* {
-        position: relative;
-        z-index: 1;
-    }
 }
 
 .bg-splash--contain {
@@ -644,7 +631,7 @@ header {
 
         li {
             display: grid;
-            grid-template-columns: 400px 1fr; // 200px = largeur fixe de la "colonne étiquette"
+            grid-template-columns: 400px 1fr; // 400px = largeur fixe de la "colonne étiquette"
             margin-bottom: 1em;
 
 

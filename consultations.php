@@ -32,7 +32,7 @@
         </div>
         <div class="column">
             <h3>Consultations de suivi</h3>
-            <p>Les consultations de suivi sont un temps précieux pour accompagner votre progression. Elles permettent de faire le point sur vos avancées, de suivre les indicateurs définis ensemble (poids, confort digestif, paramètres de santé…) et d’identifier les ajustements nécessaires pour continuer à progresser. Ces rendez-vous réguliers sont également l’occasion de partager vos ressentis, de discuter des difficultés rencontrées et de consolider les évolutions en cours, afin de maintenir une dynamique positive et durable. Nous réalisons également un bilan corporel avec la balance InBody, pour suivre vos progrets.</p>
+            <p>Les consultations de suivi sont un temps précieux pour accompagner votre progression. Elles permettent de faire le point sur vos avancées, de suivre les indicateurs définis ensemble (poids, confort digestif, paramètres de santé…) et d’identifier les ajustements nécessaires pour continuer à progresser. Ces rendez-vous réguliers sont également l’occasion de partager vos ressentis, de discuter des difficultés rencontrées et de consolider les évolutions en cours, afin de maintenir une dynamique positive et durable. Nous réalisons également un bilan corporel avec la balance InBody, pour suivre vos progrès.</p>
         </div>
         <div class="column">
             <h3>Bilan corporel</h3>

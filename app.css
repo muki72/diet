@@ -84,17 +84,6 @@ a {
   border-radius: 15px;
   padding: 3em;
 }
-.bg-splash::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  z-index: 0;
-}
-.bg-splash > * {
-  position: relative;
-  z-index: 1;
-}
 
 .bg-splash--contain {
   background-size: 100% 100%;
@@ -537,9 +526,6 @@ header h1 {
     background-image: none;
     background-color: #FFFFFF;
     color: #151515;
-  }
-  .bg-splash::before {
-    background-color: transparent;
   }
   nav .logo {
     width: 65px;
