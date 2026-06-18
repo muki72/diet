@@ -1,5 +1,9 @@
 RewriteEngine On
 
+# Force HTTPS + suppression du www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.lisamercier-dieteticienne\.fr$ [NC]
+RewriteRule ^(.*)$ https://lisamercier-dieteticienne.fr/$1 [L,R=301]
 
 # Bloque l’accès aux fichiers sensibles
 <FilesMatch "\.(htaccess|env|git|log|sql)$">

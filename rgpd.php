@@ -34,15 +34,15 @@
         <ul>
             <li data-label="Nom :">MERCIER Lisa</li>
             <li data-label="Titre professionnel :">Diététicienne Nutritionniste diplômée d’État</li>
-            <li data-label="Numéro ADELI :">[À compléter]</li>
+            <li data-label="Numéro ADELI :">729501924</li>
             <li data-label="Statut :">Micro-entreprise</li>
-            <li data-label="SIRET :">[À compléter]</li>
+            <li data-label="SIRET :">94799630200016</li>
             <li data-label="Adresse professionnelle :">5 route de Beaufay 72460 Savigné l’Évêque</li>
             <li data-label="Téléphone :">06.45.81.03.91</li>
             <li data-label="E-mail :">contact@lisamercier-dieteticienne.fr</li>
-            <li data-label="Hébergeur :">[À compléter]</li>
-            <li data-label="Siège social :">[À compléter]</li>
-            <li data-label="Site web :">[À compléter]</li>
+            <li data-label="Hébergeur :">OVH</li>
+            <li data-label="Siège social :">5 route de Beaufay 72460 Savigné l’Évêque</li>
+            <li data-label="Site web :">lisamercier-dieteticienne.fr</li>
         </ul>
         <p>Profession réglementée par le Code de la santé publique – Article L.4371-1. </p>
         <h2> POLITIQUE DE CONFIDENTIALITÉ & GESTION DES DONNÉES PERSONNELLES :
